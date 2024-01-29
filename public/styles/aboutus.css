@@ -1,0 +1,67 @@
+.form-column-2, fieldset {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.form-column-2 .last-name {
+    float: right;
+    width: 50%;
+
+}
+.form-column-2 .first-name {
+    width: 50%;
+    float: left;
+   
+}
+.form-column-2 .first-name .input {
+    margin-right: 8px;
+    width: unset;
+}
+.input input {
+    border: 1px solid hsla(228, 8%, 76%, 1);
+    border-radius: 4px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    width: 100%;
+
+}
+.display-none {
+    list-style: none;
+    font-style: italic;
+    display: none;
+
+}
+.form-column-1 {
+    width: 100%;
+}
+.input-div{
+    /* flex: 1 0 100%; */
+    margin: 0.5rem 0;
+    width: 100%;
+}
+.input textarea {
+    min-height: 140px;
+    border: 1px solid hsla(228, 8%, 76%, 1);
+    border-radius: 4px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    width: 100%;
+}
+.margin-bottom {
+    margin-bottom: 0.875px;
+}
+.colored-email {
+    color: hsla(172, 100%, 25%, 1)
+    
+}
+.colored-email:hover {
+    text-decoration: none;
+}

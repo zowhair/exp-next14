@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+/* New Card Styles  */
+.block-component{
+    margin-top: 3rem;
+    margin-bottom:5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .block-component .card-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .block-component .card-wrapper .product-block{
+    flex: 1 0 0;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  .card-product {
+    box-shadow: 0 28px 32px #6c6d711a, 0 4px 8px #6c6d710d, 0 8px 16px #6c6d710d;
+    border-radius: 24px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    /* margin-left: auto;
+    margin-right: auto;
+   min-width: 333px;
+   max-width: calc(25% - 1.6rem); */
+  }
+  .block-component .card-wrapper .product-block .card-product {
+  
+    color: black;
+    flex: 1 0 0;
+    
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    text-decoration: none;
+    min-width: 333px;
+    max-width: calc(33.33% - 1.6rem);
+    transition: transform .25s ease-in-out;
+  }
+  .block-component .card-wrapper .product-block .card-product:hover {
+    transform: translateY(-0.25rem);
+  }
+  .block-component .card-wrapper .product-block .card-product  .card-image-wrapper img{
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    display: flex;
+    object-fit: cover;
+    object-position: center;
+    min-width: 200px;
+    width: 100%;
+    height: 200px;
+  
+  }
+  .block-component .card-wrapper .product-block .card-product .card-image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .block-component .card-wrapper .product-block .card-product .card-content-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    /* width: 100%; */
+  }
+  .block-component .card-wrapper .product-block .card-product .content-top {
+    line-height: 2.25rem;
+    flex: 1;
+    text-transform: capitalize;
+  }
+  .block-component .card-wrapper .product-block .card-product .content-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .block-component .card-wrapper .product-block .card-product .content-top .content-heading h3 {
+    margin: 0 0 1rem;
+    font-size: 1.125rem;
+    line-height: 1.825rem;
+  }
+  .block-component .card-wrapper .product-block .card-product .content-top .product-block--item__partner{
+    font-size: 0.75rem;
+    color: hsla(175, 100%, 25%, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .625rem;
+    margin-bottom: 1rem;
+    line-height: .875rem;
+  }
+  .block-component .card-wrapper .product-block .card-product .content-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  .block-component .card-wrapper .product-block .card-product .content-bottom .blue-buttons-body {
+    margin: 1rem 0;
+  }
+  .blue-buttons-body{
+    margin: 1rem 0;
+  }
+  .block-component .card-wrapper .product-block .card-product .content-bottom .blue-buttons-body .blue-buttons{
+    column-gap: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .blue-buttons {
+    column-gap: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .blue-button-item {
+    background-color: hsla(172, 45%, 87%, 1);
+    border-radius: 2.5rem;
+    color: hsla(175, 100%, 25%, 1);
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.25rem;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;    
+  }
+  .blue-button-item span {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: hsla(172, 100%, 14%, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .btn {
+    /* width: 100%; */
+    justify-content: center;
+    background-color: hsla(172, 100%, 21%, 1);
+    font-size: 1.125rem;
+    line-height: 1.825rem;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.75rem 1rem 0.625rem;
+    display: flex;
+    text-transform: capitalize;
+    border-radius: 2.5rem;
+    align-items: center;
+    margin: 20px 0;
+    color: white;
+  }
+  .block-component .card-wrapper .product-block .card-product .content-bottom .btn {
+    margin: 0;
+  }
+  
+  .card-product .tag span {
+    color: white;
+    padding: 4px 10px;
+    font-family: mono;
+    border-radius: 5px;
+  }
+  .card-product .tag.new span {
+    background-color: rgb(139, 197, 198);
+
+  }
+  .card-product .tag.sale span {
+    background-color: #f00;
+
+  }
+  .card-product .tag.discount span {
+    background-color: rgb(189, 204, 161);
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    .block-component .card-wrapper {
+      flex-flow: column;
+    }
+  .block-component .card-wrapper .product-block {
+      justify-content: center;
+    }
+  }
+  
+  /* 
+  @media screen and (min-width: 1200px){
+    .container-block {
+        max-width: 1140px;
+    }
+  }
+  @media screen and (min-width: 992px){
+    .container-block {
+        max-width: 960px;
+    }
+  
+  }
+  @media screen and (min-width: 768px){
+    .container-block {
+        max-width: 720px;
+    }
+  
+  }
+  @media screen and (min-width: 576px){
+    .container-block {
+        max-width: 540px;
+    }
+  
+  } */
+
+  .price-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .price-wrapper .price {
+    padding: 16px;
+    font-size: 30px;
+    color: #0fac5e;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .container_title {
+    display: flex;
+    justify-content: center;
+  }
+  .container_title .title{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  /* partners slider */
+  .partners-carousel
+    {
+       width: 710px !important;
+       margin: 0 auto;
+     }
+    
+  .partners-carousel .partners.logo {
+    width: 150px;
+  }

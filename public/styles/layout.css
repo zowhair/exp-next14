@@ -1,0 +1,50 @@
+a.top-banner.phone{
+    color: #282e6a;
+    font-weight: 800;
+    line-height: 1.1;
+    text-align: left;
+    font-family: "Roboto Condensed", sans-serif;
+    text-decoration: none;
+  }
+
+  .top-banner.right {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .top-banner-right.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .top-banner-right.wrapper .phone-wrapper {
+    padding: 5px;
+    background-color: #ddedc5;
+    color: white;
+    border-radius: 5px;
+    min-width: 265px;
+    width: 100%;
+    text-align: center;
+  }
+  .top-banner-right.wrapper .phone-wrapper a {
+    color: black;
+  }
+  .top-banner-right.wrapper .email-wrapper {
+    padding: 5px;
+    background-color: rgb(255 239 239);
+    color:  black;
+    border-radius: 5px;
+    min-width: 265px;
+    width: 100%;
+    text-align: center;
+  }
+  .top-banner-right.wrapper .email-wrapper a{
+    text-decoration: none;
+    color: black;
+  }
+  *, body{
+    margin: 0;
+  }

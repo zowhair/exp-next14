@@ -1,95 +1,53 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import PartnersCarousel from "./component/PartnersCarousel";
+import PackageCards from "./component/PackageCards";
+import NewCard from "./component/card/NewCard";
+import Hero from "./component/Hero";
+import Carousel from "./component/Carousel";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main >
+      <Carousel />
+        <Hero />
+        {/* <Card /> */}
+
+        <div className="block-component">
+          
+
+          <div className='container-block'>
+            <div className='container_title'>
+              <span className='title'>Trekking Tours</span>
+            </div>
+            <div className="card-wrapper container-block">
+              <NewCard imgSrc="/images/k2-ggla.JPG" slug="k2-expedition" title="k2 Gondogoro La Trek" desc="k2 expedition is ..." tag="sale" price="$3500" />
+              <NewCard imgSrc="/images/parbet.jpeg" slug="nangaparbet" title="Nanga Parbat Fairy Meadows Trek" desc="We provide Nangaparbet Expedition...." tag="new" price="$690" />
+              <NewCard imgSrc="/images/parbet.jpeg" slug="biafohispar" title="Biafo Hispar Nagar Snow Lake Trek" desc="Economy Package..." tag="sale" price="$3200" />
+              
+            </div>  
+            
+          </div>
+
+          <div className='container-block'>
+            <div className='container_title'>
+              <span className='title'>Cultural Tours</span>
+            </div>
+            <div className="card-wrapper container-block">
+              <NewCard imgSrc="/images/taxila.jpg" slug="indusvalley" title="Indus Valley Civilization Culture tours" desc="New Sale offer..." tag="discount" price="$2200" />
+              <NewCard imgSrc="/images/northsouth.jpeg" slug="northandsouth" title="North and South Pakistan Culture Tours" desc="Economy Package..." tag="sale" price="$2500" />
+              <NewCard imgSrc="/images/shigrilla.jpg" slug="skardutours" title="Skardu Tours " desc="New Sale offer..." tag="discount" price="$700" />
+            </div>            
+          </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <PackageCards />
+        {/* <Packages /> */}
+        
+        {/* <Arrange /> */}
+        {/* <Form /> */}
+        {/* <Stay /> */}
+         
+        {/* <PartnersCarousel /> */}
     </main>
   );
 }

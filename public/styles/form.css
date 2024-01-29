@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+section {
+    width: min(1120px, 100%);
+    transform-origin: 1130px 82px 0px;
+  }
+.main {
+  margin: 0 auto;
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),0 3px 6px -4px rgba(0, 0, 0, 0.12),0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+    
+  }
+  .btn a {
+      color: #fff;
+      text-decoration: none;
+
+  }
+  .right{
+
+    text-align: right;
+  }
+  
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.row >*{
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.inline i{
+  position: absolute;
+left: 48px;
+top: 32px;
+color: #cdcdcd;
+
+}
+.inline {
+  width: 33%;
+
+  position: relative;
+  max-width: 100%;
+  padding-right: calc(1.5*.5rem);
+  padding-left: calc(1.5*.5rem);
+  margin-top: 0;
+  text-align: center;
+}
+.input {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0;
+}
+
+  .inline i{
+    position: absolute;
+  left: 48px;
+  top: 30px;
+  color: #cdcdcd;
+
+}
+.inline{
+  position: relative;
+  margin-right: 70px;
+
+}
+.login input, .login select {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+    padding-left: 15px;
+    height: 74px;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 20px 0 60px;
+    color: #6a6a6a;
+    transition: all .2s linear;
+    margin-bottom:30px;
+    margin-right:15px;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    
+    display: inline-block;
+    padding-bottom: 0;
+    margin: 30px auto;
+    text-align: start;
+    vertical-align: middle;
+}
+.justify-content {
+    padding: 30px;
+
+}
+.h3{
+  font-family: "Sora", sans-serif;
+  line-height: 1.0833333333;
+}
+.h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+font-weight: 600;
+margin-bottom: 30px;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.butn {
+  color: black;
+  text-decoration: none;
+
+  background-color: transparent;
+  border: 0 solid white;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+.butn:hover{
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.169);
+}
+@media (min-width: 768px){
+  .container {
+    max-width: 720px;
+  }
+
+}
+@media (min-width: 992px)
+{
+    .container {
+      max-width: 960px;
+    }
+
+  }
+
+.justify-content .btn {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.login .main {
+  width: 500px;
+  margin-top: 10px;
+  
+}
+.login .main .inline {
+  width: 100%;
+  padding-left: 0;
+}
+
+
+.continer.login-form .title {
+  display: flex;
+  justify-content: center;
+}
+.continer.login-form .title .title-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.login.login-form { 
+  margin-top: 80px;
+}

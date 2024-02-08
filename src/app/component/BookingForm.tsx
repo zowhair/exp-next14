@@ -52,12 +52,11 @@ export default function BookNowForm(...props: any) {
             body: `Hello new booking order for : ${packageName}  \n Email: ${email} \n  Phone Number: ${phoneNumber} \n Message: ${messageText}`
         };
 
-        fetch('http://localhost:3000/api', {
+        fetch('http://expeditionasiaa.com/api', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
               "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Methods" : "PUT, POST, PATCH, DELETE, GET"
             },
             body: JSON.stringify(formData),
         })

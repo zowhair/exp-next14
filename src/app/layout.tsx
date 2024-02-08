@@ -12,6 +12,9 @@ import "/public/styles/product.css"
 import "/public/styles/form.css"
 import "/public/styles/layout.css"
 import "/public/styles/aboutus.css"
+import "/public/styles/shah.css"
+import "/public/styles/collection.css"
+import "/public/styles/signup.css"
 
 
 const inter = Inter({ subsets: ["latin"] });

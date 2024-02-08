@@ -1,6 +1,7 @@
 import { Highlights } from "../Highlights"
 import { Button } from "../Button"
 import Price from "../Price"
+import Image from "next/image";
 
 export default function NewCard({slug, title, desc, tag, price, imgSrc }) {
     let link = 'product/'+slug;
@@ -11,9 +12,9 @@ export default function NewCard({slug, title, desc, tag, price, imgSrc }) {
             <div className="card-product">
                 <div className="card-image-wrapper">
                     {imgSrc ? 
-                        <img src={imgSrc} />
+                        <Image width={500} height={500} alt="image" src={imgSrc} />
                     : 
-                        <img src="https://cdn.bookatrekking.com/data/images/2019/06/mera-peak-climbing-cover-photo-768w.webp"/>
+                        <Image width={500} height={500} alt="image" src="https://cdn.bookatrekking.com/data/images/2019/06/mera-peak-climbing-cover-photo-768w.webp"/>
                     }
                 </div>
                 <div className="card-content-wrapper">

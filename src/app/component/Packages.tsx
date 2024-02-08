@@ -12,6 +12,7 @@ import Button from '@mui/joy/Button';
 import iconButtonClasses from '@mui/material';
 import Typography from '@mui/joy/Typography';
 import { Card, CardContent, CardCover } from '@mui/joy';
+import Image from 'next/image';
 
 
 
@@ -56,7 +57,7 @@ export default function Packages() {
     return (
         <Container maxWidth="lg" sx={{ mt: "120px", mb: "100px" }} >
             <Box className={styles.textCenter} sx={{ display: 'flex', justifyContent: "center", mb: "50px" }}>
-                <h1 variant='h1' >Our Popular Packages</h1>
+                <h1 >Our Popular Packages</h1>
             </Box>
             <Grid container spacing={2} sx={{ flexGrow: 1 }}>
                 <Grid xs={3}>
@@ -85,10 +86,11 @@ export default function Packages() {
                 alignItems="center" >
                     {
                         packagesData.map((data) => (
-<Grid item xs={2} sm={3} md={3}>
+                            <Grid item xs={2} sm={3} md={3} key={data.title}>
                                 <Box className={styles.rightImagesDiv} sx={{ position: "relative"}}>
                                     <Box >
-                                        <img className="rightImagesImage" src={data.src} width="180px" height="130px"
+                                        <Image className="rightImagesImage" src={data.src} width={180}
+                                        height={130} alt="image partners"
                                         />
 
                                     </Box>

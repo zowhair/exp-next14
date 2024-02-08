@@ -4,8 +4,11 @@ section {
     width: min(1120px, 100%);
     transform-origin: 1130px 82px 0px;
   }
-.main {
-  margin: 0 auto;
+.booknow {
+  display: flex;
+}
+.booknow .main {
+  margin: 120px auto 50px auto;
   position: relative;
   background-color: #ffffff;
   background-clip: padding-box;
@@ -13,21 +16,21 @@ section {
   border-radius: 8px;
   box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),0 3px 6px -4px rgba(0, 0, 0, 0.12),0 9px 28px 8px rgba(0, 0, 0, 0.05);
   pointer-events: auto;
-    
   }
-  .btn a {
-      color: #fff;
-      text-decoration: none;
+.btn a {
+    color: #fff;
+    text-decoration: none;
 
-  }
-  .right{
+}
+.right{
 
-    text-align: right;
-  }
+  text-align: right;
+}
   
 .flex {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
   }
 .row >*{
   padding-left: 15px;
@@ -42,13 +45,14 @@ color: #cdcdcd;
 
 }
 .inline {
-  width: 33%;
+  /* width: 33%; */
 
   position: relative;
   max-width: 100%;
   padding-right: calc(1.5*.5rem);
   padding-left: calc(1.5*.5rem);
   margin-top: 0;
+  margin-bottom: 10px;
   text-align: center;
 }
 .input {
@@ -104,6 +108,7 @@ color: #cdcdcd;
 }
 .justify-content {
     padding: 30px;
+    text-align: center;
 
 }
 .h3{
@@ -118,7 +123,7 @@ margin-bottom: 30px;
 }
 .space-between {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .butn {
@@ -155,7 +160,7 @@ margin-bottom: 30px;
     text-align: center;
 }
 .login .main {
-  width: 500px;
+  width: 300px;
   margin-top: 10px;
   
 }

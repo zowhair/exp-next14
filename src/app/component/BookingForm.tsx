@@ -1,6 +1,7 @@
 'use client'
 import Form from "./Form"
 import { useState } from "react"
+import SignUp from "./Signup"
 
 export default function BookNowForm(...props: any) {
 
@@ -8,6 +9,9 @@ export default function BookNowForm(...props: any) {
     const [phoneNumber, setPhoneNumber] = useState('')
     const [messageText, setMessageText] = useState('')
     const [name, setName] = useState('')
+
+    const [mailSubmitted, setMailSubmitted] = useState(false)
+
 
     console.log('booknow form params ' , props[0].props[0].params.slug)
     const slugString = props[0].props[0].params.slug
@@ -56,48 +60,66 @@ export default function BookNowForm(...props: any) {
             body: JSON.stringify(formData),
         })
         .then(x => {
+            setMailSubmitted(true)
             console.log({x})
         })
 
     }
     return(
-        <section className="main" id="myFile">
-        <div className="continer">
-            <div className="justify-content">
-                <div className="space-between">
-                    <h3 className="h3">Book Now</h3>
-                </div>
-                <h5 className="h5">Your Information</h5>
-                <div className="flex row">
-                    <div className="inline">
-                        <i className="fa-solid fa-user"></i>
-                        <input type="text" name="name" onChange={(e) => { setName(e.target.value) }} placeholder="Full name"/>
-                    </div>
-                    <div className="inline">
-                        <i className="fa-solid fa-envelope-open"></i>                                              
-                        <input type="email" name="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Email Address" />
-                    </div>
-                    <div className="inline">
-                        <i className="fa-solid fa-phone"></i>                                               
-                        <input type="tel" name="phone" onChange={(e) => { setPhoneNumber(e.target.value) }} placeholder="Mobile number"/>
-                    </div>
-                    <div className="inline">
-                        <i className="fa-regular fa-calendar"></i>                   
-                         <input type="date" />
-                    </div>
-                    <div className="inline">
-                        <i className="fa-regular fa-calendar"></i>                   
-                         <textarea name="message" onChange={(e) => { setMessageText(e.target.value) }}>
+        <div className="booknow">
+            {
+                !mailSubmitted ? 
+                <section className="main" id="myFile">
+                <div className="continer">
+                    <div className="justify-content">
+                        <div className="space-between">
+                            <h3 className="h3">Book Now</h3>
+                        </div>
+                        <h5 className="h5">Your Information</h5>
+                        <div className="flex row">
+                            <div className="inline">
+                                <div className="input">
+                                    <i className="fa-solid fa-user"></i>
+                                    <input type="text" name="name" onChange={(e) => { setName(e.target.value) }} placeholder="Full name"/>
 
-                         </textarea>
+                                </div>
+                            </div>
+                            <div className="inline">
+                                <div className="input">
+                                    <i className="fa-solid fa-envelope-open"></i>                                              
+                                    <input type="email" name="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Email Address" />
+                                </div>
+                            </div>
+                            <div className="inline">
+                                <div className="input">
+                                    <i className="fa-solid fa-phone"></i>                                               
+                                    <input type="tel" name="phone" onChange={(e) => { setPhoneNumber(e.target.value) }} placeholder="Mobile number"/>
+
+                                </div>
+                            </div>
+                            <div className="inline">
+                                <div className="input">
+                                    <i className="fa-regular fa-calendar"></i>                   
+                                    <textarea name="message" onChange={(e) => { setMessageText(e.target.value) }}>
+
+                                    </textarea>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <button onClick={handleSubmit} className="btn">book now</button>
                     </div>
-                    
+            
                 </div>
-                <button onClick={handleSubmit}>book now</button>
-            </div>
-    
+            </section>
+                : 
+
+                <SignUp />
+
+            }
+            
         </div>
-        </section>
     )
 
 }

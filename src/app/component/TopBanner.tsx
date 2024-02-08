@@ -10,7 +10,7 @@ export default function TopBanner() {
             <div className={styles.whitetop}>
                 <Link href="/" style={{textDecoration:'none'}}>
                     <Box className={styles.topleft}>
-                        <img src="https://expeditionasia.com.pk/img/logo-top.png" width={100} height={100} />
+                        <Image alt="image logo" src="/images/logos/logo-top.png" width={100} height={100} />
                         <span className={styles.brandname}>Expedition Asia Treks & Tours Pakistan</span>
 
                     </Box>

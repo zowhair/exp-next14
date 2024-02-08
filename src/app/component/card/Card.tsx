@@ -1,5 +1,6 @@
 'use client';
 import { Container } from "@mui/material";
+import Image from "next/image";
 import Link from "next/link";
 
 const Card = () => {
@@ -9,7 +10,7 @@ const Card = () => {
             <div  className="main-container">
                 <div className="card-container">
                     <div className="card-image">
-                        <img src="/images/12.jpg" />
+                        <Image src="/images/12.jpg" width={500} height={500} alt="image" />
                     </div>
                     <div>
                         <div className="card-ratings">
@@ -38,7 +39,7 @@ const Card = () => {
                                 <div>
                                     <Link href={{
                                         pathname:"/product/newThing"
-                                        }} data1="nameas">
+                                        }} >
                                         <button>Book now</button>
                                     </Link>
                                 </div>

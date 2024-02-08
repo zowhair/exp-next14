@@ -1,5 +1,7 @@
-export default async function AboutUs() {
+import AboutUs from "../component/Aboutus";
+
+export default async function AboutPage() {
     return (
-        <>About page</>
+        <AboutUs />
     )
 }

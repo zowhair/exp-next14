@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import PartnersCarousel from "./component/PartnersCarousel";
 import PackageCards from "./component/PackageCards";
 import NewCard from "./component/card/NewCard";
 import Hero from "./component/Hero";
@@ -47,7 +46,6 @@ export default function Home() {
         {/* <Form /> */}
         {/* <Stay /> */}
          
-        {/* <PartnersCarousel /> */}
     </main>
   );
 }

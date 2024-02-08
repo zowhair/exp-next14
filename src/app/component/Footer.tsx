@@ -7,7 +7,7 @@ import Link from '@mui/material/Link';
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
+    <Typography  color="text.secondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https:expeditionasia.com.pk">
         expeditionasia.com.pk
@@ -18,17 +18,17 @@ function Copyright() {
   );
 }
 
-function Footer(props) {
-  const { description, title } = props;
+function Footer() {
+  const title= "Expedition Asia Trek and Tours";
+  const description = ""
 
   return (
     <Box component="footer" sx={{ bgcolor: 'background.paper', py: 6 }}>
       <Container maxWidth="lg">
-        <Typography variant="h6" align="center" gutterBottom>
+        <Typography  align="center" gutterBottom>
           {title}
         </Typography>
         <Typography
-          variant="subtitle1"
           align="center"
           color="text.secondary"
           component="p"
@@ -41,9 +41,9 @@ function Footer(props) {
   );
 }
 
-Footer.propTypes = {
-  description: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-};
+// Footer.propTypes = {
+//   description: PropTypes.string.isRequired,
+//   title: PropTypes.string.isRequired,
+// };
 
 export default Footer;

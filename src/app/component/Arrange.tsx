@@ -6,6 +6,7 @@ import { Round } from "./Round"
 import { Stay } from "./Stay"
 import { Content } from "./Content"
 import { Bluetext } from "./Bluetext"
+import Image from "next/image"
 
 
 
@@ -17,7 +18,13 @@ export function Arrange(...props: any){
     return(
 
         <div className="product-banner">
-            <img className="product-image-banner" src={details[0].banner} />
+            <Image
+                className="product-image-banner" 
+                src={details[0].banner}
+                alt="banner image"
+                width={500}
+                height={500}
+            />
             <div className="container-block">
                 <div className="space-manager">
                     <div className="arrange-container-left">

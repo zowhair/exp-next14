@@ -3,16 +3,9 @@ import Link from 'next/link';
 import { Arrange } from '@/app/component/Arrange';
 import { k2_concordia, nangaparbet, biafoHispar,indus_valley_itinerary,northSouth, skardu } from '@/app/data';
 
-export async function GET(context: any) {
-    return {
-        props: {
-            title: "This is title and rest is data",
-            slug: context.params.slug,
-        },
-    }
-}
 
-function Product(props: any) {
+
+export default function Product(props: any) {
     console.log("props in slug pdp ", props.params.slug)
     const slug = props.params.slug;
     let data;
@@ -69,5 +62,3 @@ function Product(props: any) {
     )
 }
 
-
-export default Product;

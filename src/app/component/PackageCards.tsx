@@ -12,6 +12,7 @@ import Box from '@mui/joy/Box';
 import Button from '@mui/joy/Button';
 import Typography from '@mui/joy/Typography';
 import { Card, CardContent, CardCover } from '@mui/joy';
+import Image from 'next/image';
 
 
 const squareVariants = {
@@ -34,7 +35,7 @@ export default function PackageCards() {
     return (
         <Container maxWidth="lg" sx={{ mt: "120px", mb:"100px" }} >
             <Box className={styles.textCenter} sx={{ display:'flex', justifyContent:"center", mb:"50px"  }}>
-                <Typography variant="h1">
+                <Typography >
                     Our Family Packages
                 </Typography>
                 </Box>
@@ -48,11 +49,11 @@ export default function PackageCards() {
 
                     <Card sx={{ minHeight: '280px', width: 320 }}>
                         <CardCover>
-                            <img
+                            <Image
                                 src="/images/k2.jpg"
-                                srcSet="/images/k2.jpg"
-                                loading="lazy"
-                                alt=""
+                                alt="image"
+                                width={500}
+                                height={500}
                             />
                         </CardCover>
                         <CardCover
@@ -85,12 +86,14 @@ export default function PackageCards() {
 
                     <Card sx={{ minHeight: '280px', width: 320 }}>
                         <CardCover>
-                            <img
+                            {/* <Image
                                 src="https://images.unsplash.com/photo-1542773998-9325f0a098d7?auto=format&fit=crop&w=320"
                                 srcSet="https://images.unsplash.com/photo-1542773998-9325f0a098d7?auto=format&fit=crop&w=320&dpr=2 2x"
                                 loading="lazy"
-                                alt=""
-                            />
+                                alt="imaeg"
+                                width={500}
+                                height={500}
+                            /> */}
                         </CardCover>
                         <CardCover
                             sx={{
@@ -136,7 +139,6 @@ export default function PackageCards() {
                         </CardCover>
                         <CardContent>
                             <Typography
-                                level="h6"
                                 fontWeight="lg"
                                 textColor="#fff"
                                 mt={{ xs: 12, sm: 18 }}

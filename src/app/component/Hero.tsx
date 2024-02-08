@@ -31,7 +31,7 @@ export default function Hero() {
                 variants={squareVariants}
                 
             >
-                <Typography variant="h5" sx={{ fontWeight: 800, color: "#282e6a" }}>Welcome to Expedition Asia Trek & Tour!</Typography>
+                <Typography  sx={{ fontWeight: 800, color: "#282e6a" }}>Welcome to Expedition Asia Trek & Tour!</Typography>
                 <p className={classnames(styles.zoominleft)}>Expedition Asia is one of the premier tour operators in
                     Asia, which is functioning from Skardu, in Pakistan. Expedition Asia is managed by a group of
                     experts and enthusiastic professionals, having extensive experiences in travel and tourism around
@@ -39,7 +39,7 @@ export default function Hero() {
                     Asia. We aim to provide tourism services beyond borders to provide you a memorable and everlasting
                     lifetime travel and tourism experiences.</p>
                 <hr className={styles.mp4} />
-                <p className={[styles.zoominright]}>The services being offered in Pakistan includes, but not
+                <p className={styles.zoominright}>The services being offered in Pakistan includes, but not
                     limited to: Trekking, Expedition, Cultural excursion, Religious tour, Youth and students’ summer
                     camps, Safaris, Bike tours & E-ticketing.</p>
             </motion.div>

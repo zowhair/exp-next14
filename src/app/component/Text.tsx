@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 
@@ -17,25 +18,25 @@ export function Text(...props){
 
 
                         <div className="block-text">
-                            {itenerary ? itenerary.map(data => {
+                            {itenerary ? itenerary.map((data : any) => {
                                 return (
-                                    <>
+                                    <div key={data.title}>
                                         <div className="text-title_heading">
-                                        <div className="serial-number">
-                                            <div className="small"> Day</div>
-                                            <div className="bold">{data.day}</div>
-                                        </div>
-                                        <h3 className="h3">{data.title}</h3>
+                                            <div className="serial-number">
+                                                <div className="small"> Day</div>
+                                                <div className="bold">{data.day}</div>
+                                            </div>
+                                            <h3 className="h3">{data.title}</h3>
                                         </div>
                                         <div className="long-text">
                                             <ul>
-                                                {data.steps.length > 0 ? data.steps.map(x => {
-                                                    return <li>{x}</li>
+                                                {data.steps.length > 0 ? data.steps.map((x: any) => {
+                                                    return <li key={x}>{x}</li>
                                                 }) : '' }
 
                                             </ul>
                                         </div>
-                                    </>
+                                    </div>
                                 )
                             })
                             :
@@ -57,7 +58,7 @@ export function Text(...props){
 
                             <div className="image-container">
                                 <div className="image">
-                                    <img src="https://images.freeimages.com/365/images/previews/a7b/jumper-mockup-psd-56444.jpg"/>
+                                    {/* <Image width={500} height={500} alt="image" src="https://images.freeimages.com/365/images/previews/a7b/jumper-mockup-psd-56444.jpg"/> */}
                                     <div className="green-main">
                                         <div className="green-bottom">
                                             <h3 className="priya">Priya</h3>

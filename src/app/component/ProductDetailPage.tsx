@@ -1,12 +1,18 @@
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 // import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
+import Image from "next/image";
+
 
 export default function PDP() {
     return (
         <>
         <div className="images">
-            <img className="bg" src="https://bookatrekking.com/data/images/2018/06/Panorama-Kilimanjaro__header.jpg"/>
+            <Image className="bg" src="https://bookatrekking.com/data/images/2018/06/Panorama-Kilimanjaro__header.jpg"
+                width={500}
+                height={500}
+                alt="pdp image"
+            />
             <div className="tops">
                 {/* <img src="https://bookatrekking.com/data/images/2018/06/Panorama-Kilimanjaro__header.jpg" alt="">  */}
                 <h3 className="Green">
@@ -37,16 +43,19 @@ export default function PDP() {
             <div className="navi">
                 <h2 className="white">                
                     <a href="#">
-                    <img className="logo" src="https://bookatrekking.com/app/static/img/logo-green-white.svg" class="logo-white" alt="Bookatrekking.com"></img>
+                    <Image className="logo logo-white" src="https://bookatrekking.com/app/static/img/logo-green-white.svg"  alt="Bookatrekking.com"
+                        width={500}
+                        height={500}
+                    />
                     </a>
                 </h2>
                 <ul className="right">
-                    <li><a class="hover-green" href="#">Home</a></li>
-                    <li><a class="hover-green" href="#">Destination</a></li>
-                    <li><a class="hover-green" href="#">Trecking type</a></li>
-                    <li><a class="hover-green" href="#">Blog</a></li>
-                    <li><a class="hover-green" href="#">Contact Us $ </a></li>
-                    <li class="white"> <span class="white">
+                    <li><a className="hover-green" href="#">Home</a></li>
+                    <li><a className="hover-green" href="#">Destination</a></li>
+                    <li><a className="hover-green" href="#">Trecking type</a></li>
+                    <li><a className="hover-green" href="#">Blog</a></li>
+                    <li><a className="hover-green" href="#">Contact Us $ </a></li>
+                    <li className="white"> <span className="white">
                             {/* <FontAwesomeIcon icon={faShoppingBag} /> */}
                         </span>(0) </li>
                 </ul>
@@ -98,17 +107,21 @@ export default function PDP() {
 
                             This hike is one of the most famous in Europe and traditionally crosses 3 countries: France, Italy, and Switzerland. The famous Tour du Mont Blanc is a 170-kilometer long circuit, which encircles the Mont Blanc massif and has 10 kilometers of ascent/descent. The trek can be completed in 7 to 11 days, depending on the route and physical condition.
 
-                            Our 10-day trek starts in Chamonix, France, and goes around the beautiful Mont Blanc massif. Along the way, you spend the nights in French, Italian and Swiss mountain huts. There you will meet other hikers and enjoy delicious local dishes. During this 10-day adventure, you'll enjoy magnificent views of the mountains, snow-capped peaks and small picturesque mountain villages. You don't have to worry about the logistics of reserving the huts. We'll take care of that for you, so all you have to do is enjoy this unforgettable adventure. 
+                            Our 10-day trek starts in Chamonix, France, and goes around the beautiful Mont Blanc massif. Along the way, you spend the nights in French, Italian and Swiss mountain huts. There you will meet other hikers and enjoy delicious local dishes. During this 10-day adventure, you will enjoy magnificent views of the mountains, snow-capped peaks and small picturesque mountain villages. You do not have to worry about the logistics of reserving the huts. We will take care of that for you, so all you have to do is enjoy this unforgettable adventure. 
                        </p>
                     </div>
                     <div className="gallery">
                         <h3>Gallery</h3>
-                        <img className="small-imgs" src="https://bookatrekking.com/data/images/2022/09/peaks-of-the-balkans-2__product.jpg"/>
+                        <Image className="small-imgs" src="https://bookatrekking.com/data/images/2022/09/peaks-of-the-balkans-2__product.jpg"
+                            alt="image"
+                            width={500}
+                            height={500}
+                        />
                     </div>
 
 
                 </div>
-                <div classNAme="white-right">
+                <div className="white-right">
                     <div className="card-white">
                         <div className="align-center">
                             <p>From</p>
@@ -146,7 +159,7 @@ export default function PDP() {
                 <div className="picture-cards">
                     <div className="cards">
                         <div className="images-container">
-                            <img src="https://bookatrekking.com/data/images/2019/12/shutterstock-161001695__product.jpg"/>
+                            <Image width={500} height={500} alt="image" src="https://bookatrekking.com/data/images/2019/12/shutterstock-161001695__product.jpg"/>
                         </div>
                         <div className="info-container">
                             <h3>Fast Track W-Treks</h3>
@@ -158,12 +171,12 @@ export default function PDP() {
                             <p className="clear"> 3 Days</p>
 
                             </div>
-                            <img className="logo-right" src="https://bookatrekking.com/data/images/2019/06/Logo-Chile-Nativo.png"/>
+                            <Image width={500} height={500} alt="image" className="logo-right" src="https://bookatrekking.com/data/images/2019/06/Logo-Chile-Nativo.png"/>
                         </div>
                     </div>
                     <div className="cards">
                         <div className="images-container">
-                            <img src="https://bookatrekking.com/data/images/2019/12/shutterstock-161001695__product.jpg"/>
+                            <Image width={500} height={500} alt="image" src="https://bookatrekking.com/data/images/2019/12/shutterstock-161001695__product.jpg"/>
                         </div>
                         <div className="info-container">
                             <h3>Fast Track W-Treks</h3>
@@ -175,12 +188,12 @@ export default function PDP() {
                             <p className="clear"> 3 Days</p>
 
                             </div>
-                            <img className="logo-right" src="https://bookatrekking.com/data/images/2019/06/Logo-Chile-Nativo.png"/>
+                            <Image width={500} height={500} alt="image" className="logo-right" src="https://bookatrekking.com/data/images/2019/06/Logo-Chile-Nativo.png"/>
                         </div>
                     </div>
                     <div className="cards">
                         <div className="images-container">
-                            <img src="https://bookatrekking.com/data/images/2019/12/shutterstock-161001695__product.jpg"/>
+                            <Image width={500} height={500} alt="image" src="https://bookatrekking.com/data/images/2019/12/shutterstock-161001695__product.jpg"/>
                         </div>
                         <div className="info-container">
                             <h3>Fast Track W-Treks</h3>
@@ -192,7 +205,7 @@ export default function PDP() {
                             <p className="clear"> 3 Days</p>
 
                             </div>
-                            <img className="logo-right" src="https://bookatrekking.com/data/images/2019/06/Logo-Chile-Nativo.png"/>
+                            <Image width={500} height={500} alt="image" className="logo-right" src="https://bookatrekking.com/data/images/2019/06/Logo-Chile-Nativo.png"/>
                         </div>
                     </div>
                 </div>
@@ -216,7 +229,7 @@ export default function PDP() {
                 <div className="footer-items flex-column">
                     <h2>About us</h2>
                     <p>
-                        At Bookatrekking.com you'll find the treks that will make your life unforgettable. Whether you want to discover the Inca Trail or climb the Kilimanjaro, Bookatrekking.com offers a wide and varied range of services. Here, no false promises are made, prices are transparent and every booking is confirmed immediately. Find, compare, book and trek. 
+                        At Bookatrekking.com you will find the treks that will make your life unforgettable. Whether you want to discover the Inca Trail or climb the Kilimanjaro, Bookatrekking.com offers a wide and varied range of services. Here, no false promises are made, prices are transparent and every booking is confirmed immediately. Find, compare, book and trek. 
                     </p>
                     <ul className="terms">
                         <li><a href="#">Privacy policy</a></li>

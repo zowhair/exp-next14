@@ -7,6 +7,7 @@ import { Pagination, Autoplay, Navigation } from 'swiper';
 import 'swiper/css';
 import styles from "/public/styles/custom.module.css";
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 
 export default function Carousel() {
@@ -44,7 +45,7 @@ export default function Carousel() {
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
-                height="600px"
+                height={600}
             >
                 {/* {images.map((data) => {
                     return <SwiperSlide className={styles.swiperslide} >
@@ -54,8 +55,8 @@ export default function Carousel() {
                 })} */}
 
                 {carouselElements.map((data) => {
-                    return <SwiperSlide className={styles.swiperslide} >
-                        <img src={data} />
+                    return <SwiperSlide className={styles.swiperslide} key={data} >
+                        <Image src={data} width={500} height={500} alt="slider image" />
                     </SwiperSlide>
 
                 })}

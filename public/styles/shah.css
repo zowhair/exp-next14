@@ -1,0 +1,25 @@
+.colored {
+    background-color: #f5f6f7;
+    
+}
+.colored .image-div {
+    width: 1500px;
+}
+.colored .image-div img {
+    width: 100%;
+}
+.space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colored .m0-auto {
+    margin: 0 auto;
+}
+@media screen and (max-width: 767px){
+    .space{
+        flex-direction: column;
+    }
+  
+
+} 

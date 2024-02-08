@@ -56,6 +56,8 @@ export default function BookNowForm(...props: any) {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
+              "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods" : "PUT, POST, PATCH, DELETE, GET"
             },
             body: JSON.stringify(formData),
         })

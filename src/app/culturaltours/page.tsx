@@ -3,7 +3,6 @@ import { Collectioncard } from "../component/card/CollectionCard";
 import { indus_valley_itinerary, northSouth, skardu } from "../data"; 
 
 export default function CulturePage() {
-    console.log(indus_valley_itinerary[0].title)
     
     return (
         <>

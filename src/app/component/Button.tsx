@@ -2,7 +2,6 @@
 
 import Link from "next/link"
 export function Button(...props: any){
-    console.log("butto props ", {props})
 
     return(
         <>

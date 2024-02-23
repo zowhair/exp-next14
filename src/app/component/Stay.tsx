@@ -4,7 +4,6 @@ import { Button } from "./Button";
 
 export function Stay(...props: any){
     const { price, slug, textContent } = props[0]
-    console.log("stay props ", price, slug, textContent)
     return (
         <div className="card-product">
             <div className="container-block">

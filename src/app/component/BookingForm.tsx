@@ -12,8 +12,6 @@ export default function BookNowForm(...props: any) {
 
     const [mailSubmitted, setMailSubmitted] = useState(false)
 
-
-    console.log('booknow form params ' , props[0].props[0].params.slug)
     const slugString = props[0].props[0].params.slug
     let packageName = ''
     
@@ -62,7 +60,6 @@ export default function BookNowForm(...props: any) {
         })
         .then(x => {
             setMailSubmitted(true)
-            console.log({x})
         })
 
     }

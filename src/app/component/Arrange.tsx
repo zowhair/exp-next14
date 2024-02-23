@@ -11,10 +11,8 @@ import Image from "next/image"
 
 
 export function Arrange(...props: any){
-    console.log('arrange ',{props})
     const slug = props[0].slug ? props[0].slug : ''
     const details = props[0].details
-    console.log({details})
     return(
 
         <div className="product-banner">

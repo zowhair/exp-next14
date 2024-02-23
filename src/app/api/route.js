@@ -6,7 +6,6 @@ export async function POST(req, res) {
     const { method } = req;
     const body  = await req.json();
 
-    console.log({body})
     // return 
     switch (method) {
       case "POST": {

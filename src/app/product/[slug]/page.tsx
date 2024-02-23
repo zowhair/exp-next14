@@ -6,7 +6,6 @@ import { k2_concordia, nangaparbet, biafoHispar,indus_valley_itinerary,northSout
 
 
 export default function Product(props: any) {
-    console.log("props in slug pdp ", props.params.slug)
     const slug = props.params.slug;
     let data;
     if(slug == 'k2-expedition') {

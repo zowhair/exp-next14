@@ -20,7 +20,6 @@ export async function sendMail(subject, toEmail, otpText) {
     if (error) {
       throw new Error(error);
     } else {
-      console.log("Email Sent");
       return true;
     }
   });

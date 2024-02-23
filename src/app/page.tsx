@@ -4,6 +4,7 @@ import PackageCards from "./component/PackageCards";
 import NewCard from "./component/card/NewCard";
 import Hero from "./component/Hero";
 import Carousel from "./component/Carousel";
+import Head from "next/head";
 
 export default function Home() {
 

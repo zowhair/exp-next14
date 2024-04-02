@@ -30,7 +30,7 @@ export function Text(...props){
                                         </div>
                                         <div className="long-text">
                                             <ul>
-                                                {data.steps.length > 0 ? data.steps.map((x: any) => {
+                                                {data.steps && data.steps.length > 0 ? data.steps.map((x: any) => {
                                                     return <li key={x}>{x}</li>
                                                 }) : '' }
 

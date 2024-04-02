@@ -16,7 +16,10 @@ export default function Carousel() {
 
     const carouselElements = [
         "/images/KN3A8259.jpg",
-        "/images/DSC_2985.JPG",
+        "/images/heli/1.JPG",
+        "/images/heli/3.JPG",
+        "/images/heli/8.JPG",
+        "/images/taxila.jpg",
         "/images/Rakaposhi.jpg"
     ]
 

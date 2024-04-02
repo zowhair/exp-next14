@@ -23,13 +23,22 @@ a.top-banner.phone{
   .top-banner-right.wrapper .phone-wrapper {
     padding: 5px;
     background-color: #ddedc5;
-    color: white;
     border-radius: 5px;
     min-width: 265px;
     width: 100%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
-  .top-banner-right.wrapper .phone-wrapper a {
+  .top-banner-right.wrapper .phone-wrapper  .icon{
+    display: flex;
+    align-items: center;
+  }
+  .top-banner-right.wrapper .phone-wrapper  .icon svg{
+    color: green;
+  }
+  .top-banner-right.wrapper .phone-wrapper {
     color: black;
   }
   .top-banner-right.wrapper .email-wrapper {
@@ -41,7 +50,7 @@ a.top-banner.phone{
     width: 100%;
     text-align: center;
   }
-  .top-banner-right.wrapper .email-wrapper a{
+  .top-banner-right.wrapper .email-wrapper{
     text-decoration: none;
     color: black;
   }

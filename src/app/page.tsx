@@ -4,7 +4,14 @@ import PackageCards from "./component/PackageCards";
 import NewCard from "./component/card/NewCard";
 import Hero from "./component/Hero";
 import Carousel from "./component/Carousel";
-import Head from "next/head";
+import type { Metadata } from "next";
+import { k2_concordia, nangaparbet, biafoHispar, northSouth, indus_valley_itinerary, skardu } from "./data";
+
+export const metadata: Metadata = {
+  title: "Expedition Asia Trek And Tours",
+  description: "Skardu Gilgit Expedition K2"
+
+}
 
 export default function Home() {
 
@@ -22,9 +29,9 @@ export default function Home() {
               <span className='title'>Trekking Tours</span>
             </div>
             <div className="card-wrapper container-block">
-              <NewCard imgSrc="/images/k2-ggla.JPG" slug="k2-expedition" title="k2 Gondogoro La Trek" desc="k2 expedition is ..." tag="sale" price="$3500" />
-              <NewCard imgSrc="/images/parbet.jpeg" slug="nangaparbet" title="Nanga Parbat Fairy Meadows Trek" desc="We provide Nangaparbet Expedition...." tag="new" price="$690" />
-              <NewCard imgSrc="/images/parbet.jpeg" slug="biafohispar" title="Biafo Hispar Nagar Snow Lake Trek" desc="Economy Package..." tag="sale" price="$3200" />
+              <NewCard imgSrc="/images/k2-ggla.JPG" slug="k2-expedition" title={k2_concordia[0].title} desc={k2_concordia[0].description} tag="sale" price={k2_concordia[0].price} />
+              <NewCard imgSrc="/images/parbet.jpeg" slug="nangaparbet" title={nangaparbet[0].title} desc={nangaparbet[0].description} tag="new" price={nangaparbet[0].price} />
+              <NewCard imgSrc="/images/parbet.jpeg" slug="biafohispar" title={biafoHispar[0].title} desc={biafoHispar[0].description} tag="sale" price={biafoHispar[0].price} />
               
             </div>  
             
@@ -35,9 +42,9 @@ export default function Home() {
               <span className='title'>Cultural Tours</span>
             </div>
             <div className="card-wrapper container-block">
-              <NewCard imgSrc="/images/taxila.jpg" slug="indusvalley" title="Indus Valley Civilization Culture tours" desc="New Sale offer..." tag="discount" price="$2200" />
-              <NewCard imgSrc="/images/northsouth.jpeg" slug="northandsouth" title="North and South Pakistan Culture Tours" desc="Economy Package..." tag="sale" price="$2500" />
-              <NewCard imgSrc="/images/shigrilla.jpg" slug="skardutours" title="Skardu Tours " desc="New Sale offer..." tag="discount" price="$700" />
+              <NewCard imgSrc="/images/taxila.jpg" slug={indus_valley_itinerary[0].slug} title={indus_valley_itinerary[0].title} desc={indus_valley_itinerary[0].description} tag="discount" price={indus_valley_itinerary[0].price} />
+              <NewCard imgSrc="/images/northsouth.jpeg" slug={northSouth[0].slug} title={northSouth[0].title} desc={northSouth[0].description} tag="sale" price={northSouth[0].price} />
+              <NewCard imgSrc="/images/shigrilla.jpg" slug={skardu[0].slug} title={skardu[0].title} desc={skardu[0].description} tag="discount" price={skardu[0].price} />
             </div>            
           </div>
         </div>

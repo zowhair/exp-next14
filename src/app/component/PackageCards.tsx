@@ -83,7 +83,6 @@ export default function PackageCards() {
                     alignItems="center"
 
                 >
-
                     <Card sx={{ minHeight: '280px', width: 320 }}>
                         <CardCover>
                             {/* <Image
@@ -122,7 +121,6 @@ export default function PackageCards() {
                     alignItems="center"
 
                 >
-
                     <Card sx={{ minHeight: '280px', width: 320 }}>
                         <CardCover>
                             <video

@@ -3,6 +3,7 @@ import styles from "/public/styles/Home.module.css";
 import { Box, Typography } from "@mui/material";
 import Link from "next/link";
 import ManageAccountsOutlinedIcon from '@mui/icons-material/ManageAccountsOutlined';
+import { WhatsApp } from "@mui/icons-material";
 
 export default function TopBanner() {
     return (
@@ -24,17 +25,24 @@ export default function TopBanner() {
                     <br /> */}
                     <div className="top-banner-right wrapper">
                         <div className="top-banner right">
-                            <div className="phone-wrapper">
-                                <a className="top-banner phone" target="_blank" href=" https://wa.me/+923004708813">+92(300)4708813</a>
+                            <div>
+                                <a className="phone-wrapper" target="_blank" href=" https://wa.me/+923004708813">
+                                    <div className="number">
+                                        <span className="top-banner phone" >+92(300)4708813</span>
+                                    </div>
+                                    <div className="icon">
+                                        <WhatsApp />
+                                    </div>
+                                </a>
                             </div>
                             <div className="email-wrapper">
                                 <a className="top-banner email" target="_blank" href="mailto:expeditionasiaa@gmail.com">expeditionasiaa@gmail.com</a>
                             </div>
                         </div>
 
-                        <div className="login-wrapper">
+                        {/* <div className="login-wrapper">
                             <a className="top-banner login" href="/login"><ManageAccountsOutlinedIcon /></a>
-                        </div>
+                        </div> */}
 
                     </div>
                 </Box>

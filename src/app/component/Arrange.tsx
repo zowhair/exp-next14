@@ -58,7 +58,6 @@ export function Arrange(...props: any){
                         {/* <Greytext/> */}
                         <Text itenerary={details[0].itenerary} />
                         <Content/>
-
                     </div>
                     <div className="arrange-container-right">
                         <Stay price={details[0].price} slug={slug} textContent="Book now"   />
@@ -67,7 +66,6 @@ export function Arrange(...props: any){
                             <div className="container-block">
                                 
                             </div>
-                            
                         </div>
                     </div>
 

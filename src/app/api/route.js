@@ -12,7 +12,7 @@ export async function POST(req, res) {
         //Do some thing
         await sendMail(
           body.subject,
-          "zowhair@gmail.com",
+          "expeditionasiaa@gmail.com",
           body.body
         )
         .then(res => res.json())

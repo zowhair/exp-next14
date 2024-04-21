@@ -13,17 +13,13 @@ export const metadata: Metadata = {
 
 }
 
-export default function Home() {
-
+export default async function Home() {
   return (
     <main >
       <Carousel />
         <Hero />
         {/* <Card /> */}
-
         <div className="block-component">
-          
-
           <div className='container-block'>
             <div className='container_title'>
               <span className='title'>Trekking Tours</span>
@@ -49,6 +45,7 @@ export default function Home() {
           </div>
         </div>
         <PackageCards />
+
         {/* <Packages /> */}
         
         {/* <Arrange /> */}

@@ -1,0 +1,25 @@
+.blog-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.blog-wrapper .blog__title {
+    text-transform: capitalize;
+    padding: 20px;
+}
+.blog-wrapper .blog__content {
+
+}
+.blog-page .blog-recommended_products {
+    text-align: center;
+    padding: 30px;
+}
+@media screen and (min-width: 767px) {
+    .blog-wrapper {
+        padding: 50px 300px;
+    }
+}

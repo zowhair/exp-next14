@@ -59,7 +59,7 @@ export default function Carousel() {
 
                 {carouselElements.map((data) => {
                     return <SwiperSlide className={styles.swiperslide} key={data} >
-                        <Image src={data} width={500} height={500} alt="slider image" />
+                        <Image src={data} width={500} height={500} alt="slider image" 	loading="lazy" />
                     </SwiperSlide>
 
                 })}

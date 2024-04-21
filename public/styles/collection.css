@@ -54,6 +54,17 @@
     object-fit: cover;
     object-position: center;
 }
+.collection-title{
+    text-align: center;
+    padding: 50px;
+}
+.collection .blog__link{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #00000036;
+    border-radius: 10px;
+    margin: 30px;
+}
 @media screen and (max-width: 867px){
     .collection .item-wrapper .product-block{
         flex-direction: column;

@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-src/app/data.js
+# src/app/data.js
 .env
 # dependencies
 /node_modules

@@ -1,7 +1,11 @@
+import StaticBlog from "../component/Blogs";
 import { Collectioncard } from "../component/card/CollectionCard";
 import { hunzaTrip } from "../data";
 export default function MixedToursPage() {
     return (
-        <Collectioncard data={hunzaTrip[0]} />
+        <>
+            <Collectioncard data={hunzaTrip[0]} />
+            <StaticBlog />
+        </>
     )
 }

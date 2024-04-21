@@ -50,7 +50,7 @@ export default function BookNowForm(...props: any) {
             body: `Hello new booking order for : ${packageName}  \n Email: ${email} \n  Phone Number: ${phoneNumber} \n Message: ${messageText}`
         };
 
-        fetch('http://expeditionasiaa.com/api', {
+        fetch('https://expeditionasiaa.com/api', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

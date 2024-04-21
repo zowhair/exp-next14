@@ -2,8 +2,7 @@
 import Link from 'next/link';
 import { Arrange } from '@/app/component/Arrange';
 import { k2_concordia, nangaparbet, biafoHispar,indus_valley_itinerary,northSouth, skardu } from '@/app/data';
-
-
+import StaticBlog from '@/app/component/Blogs';
 
 export default function Product(props: any) {
     const slug = props.params.slug;
@@ -22,7 +21,7 @@ export default function Product(props: any) {
         data = skardu
     }
     return (
-        <>
+        <>  
             <Arrange slug={slug} details={data} />
             <div className="productDetailPageContainer">
                 <div className="productPageTopHead">
@@ -56,6 +55,7 @@ export default function Product(props: any) {
                     box-sizing: border-box;
                 }
             `}</style>
+            <StaticBlog />
         </>
 
     )

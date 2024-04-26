@@ -93,14 +93,17 @@
     line-height: 1.825rem;
   }
   .block-component .card-wrapper .product-block .card-product .content-top .product-block--item__partner{
-    font-size: 0.75rem;
+    font-size: 0.89rem;
     color: hsla(175, 100%, 25%, 1);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-right: .625rem;
     margin-bottom: 1rem;
-    line-height: .875rem;
+    line-height: 2rem;
+  }
+  .block-component .card-wrapper .product-block .card-product .content-top .product-block--item__partner span{
+    font-weight: 600;
   }
   .block-component .card-wrapper .product-block .card-product .content-bottom {
     display: flex;

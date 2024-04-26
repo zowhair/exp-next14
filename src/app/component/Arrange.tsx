@@ -13,6 +13,14 @@ import Image from "next/image"
 export function Arrange(...props: any){
     const slug = props[0].slug ? props[0].slug : ''
     const details = props[0].details
+ 
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: details[0]?.title ? details[0]?.title : "tour",
+      image: details[0]?.banner,
+      description: details[0]?.description,
+    }
     return(
 
         <div className="product-banner">
@@ -72,7 +80,10 @@ export function Arrange(...props: any){
                 </div>
             
             </div>
-
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
         </div>
         
     )

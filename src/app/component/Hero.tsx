@@ -31,7 +31,7 @@ export default function Hero() {
                 variants={squareVariants}
                 
             >
-                <Typography  sx={{ fontWeight: 800, color: "#282e6a" }}>Welcome to Expedition Asia Trek & Tour!</Typography>
+                <Typography  sx={{ fontWeight: 800, color: "#282e6a" }}>Welcome to <h1>Expedition Asia Trek And Tour!</h1></Typography>
                 <p className={classnames(styles.zoominleft)}>Expedition Asia is one of the premier tour operators in
                     Asia, which is functioning from Skardu, in Pakistan. Expedition Asia is managed by a group of
                     experts and enthusiastic professionals, having extensive experiences in travel and tourism around

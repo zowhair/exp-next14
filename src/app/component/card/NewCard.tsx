@@ -40,7 +40,9 @@ export default function NewCard({slug, title, desc, tag, price, imgSrc }) {
                         </div>
                         <div>
                             <div className="product-block--item__partner">
-                                {desc}
+                                <span>
+                                    {desc}
+                                </span>
                             </div>
                             {/* <div className="product-block--item__partner">
                                 hgfrh
@@ -50,10 +52,10 @@ export default function NewCard({slug, title, desc, tag, price, imgSrc }) {
                     </div>
                     <div className="content-bottom">
                         <div className="blue-buttons-body">
-                            <div className="blue-buttons">
+                            {/* <div className="blue-buttons">
                                 <Highlights text="15 days" />
                                 <Highlights text="T4 Trail" />
-                            </div>
+                            </div> */}
                         </div>
                         <Price price={price} />
                         <Button content="book now" link={link} price={price} />

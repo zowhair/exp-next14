@@ -11,7 +11,7 @@ import { Collectioncard } from "./card/CollectionCard"
 export default function AboutUs() {
     // let tags_: string[] = ["abc", "def", "ghi"]
     const [fullName, setFullName] = useState('')
-    const [phoneNumber, setPhoneNumber] = useState(0)
+    const [phoneNumber, setPhoneNumber] = useState('')
     const [message, setMessage] = useState('')
     const [email, setEmail] = useState('')
 
@@ -76,7 +76,7 @@ export default function AboutUs() {
                                                     <span>Full Name*</span>
                                                 </label>
                                                 <div className="input">
-                                                    <input name="fullname" type="text" required placeholder="fullname"/>
+                                                    <input name="fullname" type="text" required placeholder="fullname" onChange={(e) => setFullName(e.target.value)} />
                                                 </div>
                                             </div>
                                             <div className="input-div last-name">
@@ -84,7 +84,7 @@ export default function AboutUs() {
                                                     <span>Phone Number*</span>
                                                 </label>
                                                 <div className="input">
-                                                    <input name="number" type="text" required placeholder="phone number"/>
+                                                    <input name="number" type="text" required placeholder="phone number" onChange={(e) => setPhoneNumber(e.target.value)}/>
                                                 </div>
                                                 <ul className="display-none">
                                                     <li className="">Please complete this required field.</li>
@@ -97,7 +97,7 @@ export default function AboutUs() {
                                                     <span>Email *</span>
                                                 </label>
                                                 <div className="input">
-                                                    <input type="email" name="email" required  />
+                                                    <input type="email" name="email" required onChange={(e) => setEmail(e.target.value)}  />
                                                 </div>
                                             </div>
                                         </fieldset>
@@ -107,14 +107,13 @@ export default function AboutUs() {
                                                     <span>Message *</span>
                                                 </label>
                                                 <div className="input">
-                                                    <textarea name="message" ></textarea>
-
+                                                    <textarea name="message" onChange={(e) => setMessage(e.target.value)}></textarea>
                                                 </div>
                                             </div>
                                         </fieldset>
                                         
                                     </form>
-                                    <div className="btn">send</div>
+                                    <div className="btn" onClick={handleSubmit}>Send</div>
 
                                 </div>
                             :

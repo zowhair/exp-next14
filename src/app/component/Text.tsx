@@ -41,7 +41,7 @@ export function Text(...props){
                             })
                             :
                             <>
-                            <div className="text-title_heading">
+                            {/* <div className="text-title_heading">
                                 <div className="serial-number">
                                     <div className="small"> Day</div>
                                     <div className="bold">1</div>
@@ -50,15 +50,15 @@ export function Text(...props){
                             </div>
                             <div className="long-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum ipsa eveniet suscipit sapiente cumque, delectus aspernatur minus quod quam, ipsum voluptate nobis cupiditate quae, atque obcaecati qui reiciendis sed.
-                            </div>
+                            </div> */}
                             </>
                              }
 
 
 
-                            <div className="image-container">
+                            {/* <div className="image-container">
                                 <div className="image">
-                                    {/* <Image width={500} height={500} alt="image" src="https://images.freeimages.com/365/images/previews/a7b/jumper-mockup-psd-56444.jpg"/> */}
+                                    <Image width={500} height={500} alt="image" src="https://images.freeimages.com/365/images/previews/a7b/jumper-mockup-psd-56444.jpg"/> 
                                     <div className="green-main">
                                         <div className="green-bottom">
                                             <h3 className="priya">Priya</h3>
@@ -69,7 +69,7 @@ export function Text(...props){
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>

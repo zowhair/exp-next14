@@ -17,23 +17,21 @@ export default function Carousel() {
     const carouselElements = [
         "/images/KN3A8259.jpg",
         "/images/heli/1.JPG",
+        "/images/nangaparbet-iin.jpg",
         "/images/heli/3.JPG",
         "/images/heli/8.JPG",
         "/images/taxila.jpg",
-        "/images/Rakaposhi.jpg"
+        "/images/Rakaposhi.jpg",
+        "/images/k2/DSC_3563.JPG"
     ]
+    return (
+        <>
+            <CarouselImages carouselElements={carouselElements} />
+        </>
+    )
+}
 
-    /*
-    useEffect(() => {
-        (async () => {
-            fetch('http://127.0.0.1:1337/api/carousels?populate=*')
-            .then((resp) => resp.json())
-            .then((data) => setImages(data.data[0].attributes.images.data))
-        })()
-    }, [])
-    // console.log({images})
-    images.map((data) => console.log('http://localhost:1337' +data.attributes.formats.large.url))
-    */
+function CarouselImages({carouselElements}) {
     return (
         <>
             <Swiper className={styles.mySwiper}
@@ -59,14 +57,12 @@ export default function Carousel() {
 
                 {carouselElements.map((data) => {
                     return <SwiperSlide className={styles.swiperslide} key={data} >
-                        <Image src={data} width={500} height={500} alt="slider image" 	loading="lazy" />
+                        <Image src={data} width={500} height={500} alt="slider image" src-set={data} loading="lazy" />
                     </SwiperSlide>
 
                 })}
 
             </Swiper>
-
-
         </>
     )
 }

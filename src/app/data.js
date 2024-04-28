@@ -683,11 +683,12 @@ export const hunzaTrip = [
         description_s:"Discover the enchanting beauty of Hunza Valley, nestled amidst the majestic peaks of the Karakoram Range",
         description:"Cradled amidst the towering peaks of the Karakoram Range, Hunza Valley beckons travelers with its unparalleled beauty and rich cultural heritage. Immerse yourself in the majestic landscapes, from the emerald waters of Attabad Lake to the ancient forts perched on rugged cliffs. Our expertly curated Hunza trip offers a perfect blend of adventure and relaxation, with opportunities for trekking, sightseeing, and experiencing the warm hospitality of the local community. Join us and embark on a journey of discovery through one of Pakistan's most captivating destinations.",
         slug:"hunza-trip",
+        price: "$700",
+        banner:"/images/hunza.jpg",
         itenerary: [
             {
-                "day": 1,
-                "location": "Islamabad",
-                "activities": [
+                "title": "Day 1 Islamabad",
+                "steps": [
                     "Meet and assist upon arrival at Islamabad airport.",
                     "Transfer to hotel and rest.",
                     "Sightseeing tour of Islamabad city:",
@@ -697,9 +698,8 @@ export const hunzaTrip = [
                 "accommodation": "Hill View Hotel"
             },
             {
-                "day": 2,
-                "location": "Chilas",
-                "activities": [
+                "title": "Day 2 Chilas",
+                "steps": [
                     "Drive from Islamabad to Chilas via Naran and Kaghan valleys.",
                     "Lunch at a local restaurant.",
                     "Overnight stay in Chilas."
@@ -707,9 +707,8 @@ export const hunzaTrip = [
                 "accommodation": "Shangrila Hotel Chilas"
             },
             {
-                "day": 3,
-                "location": "Hunza",
-                "activities": [
+                "title": "3 Hunza",
+                "steps": [
                     "Drive from Chilas to Gilgit.",
                     "Visit Chilas rock carving en route.",
                     "Lunch in Gilgit and continue drive to Hunza.",
@@ -717,36 +716,32 @@ export const hunzaTrip = [
                 "accommodation": "Overnight stay at Hunza"
             },
             {
-                "day": 4,
-                "location": "Hunza",
-                "activities": [
+                "title": "Day 4 Hunza",
+                "steps": [
                     "Visit Baltit market and 800-year-old Baltit Fort.",
                     "Drive to Duikar Hunza for sunset view.",
                 ],
                 "accommodation": "Hunza Embassy Hotel"
             },
             {
-                "day": 5,
-                "location": "Hunza",
-                "activities": [
+                "title": "Day 5 Hunza",
+                "steps": [
                     "Drive to Altit and visit 1200-year-old Altit Fort.",
                     "Nagar excursion, including Hoper Glacier and enjoying the beautiful season.",
                 ],
                 "accommodation": "Hunza Embassy Hotel Karimabad Hunza"
             },
             {
-                "day": 6,
-                "location": "Chilas",
-                "activities": [
+                "title": "Day 6 Chilas",
+                "steps": [
                     "Drive from Hunza to Gilgit and visit Kargah Budha, Kargah Nallah, and the old market.",
                     "Continue drive to Chilas and transfer to hotel.",
                 ],
                 "accommodation": "Overnight at Hotel"
             },
             {
-                "day": 7,
-                "location": "Islamabad",
-                "activities": [
+                "title": "Day 7 Islamabad",
+                "steps": [
                   "Drive from Chilas to Islamabad with stops at Babusar Top and Naran for photos.",
                   "Lunch in Naran.",
                   "Dinner at a restaurant in Islamabad.",

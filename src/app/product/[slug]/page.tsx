@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import { Arrange } from '@/app/component/Arrange';
-import { k2_concordia, nangaparbet, biafoHispar,indus_valley_itinerary,northSouth, skardu } from '@/app/data';
+import { k2_concordia, nangaparbet, biafoHispar,indus_valley_itinerary,northSouth, skardu, helicopterSafari, hunzaTrip } from '@/app/data';
 import StaticBlog from '@/app/component/Blogs';
 
 export default function Product(props: any) {
@@ -19,6 +19,10 @@ export default function Product(props: any) {
         data = northSouth
     } else if(slug == 'skardutours') {
         data = skardu
+    } else if(slug == 'helicopter-safari') {
+        data = helicopterSafari
+    } else if(slug == 'hunza-trip') {
+        data = hunzaTrip
     }
     return (
         <>  

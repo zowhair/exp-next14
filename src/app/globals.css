@@ -99,7 +99,29 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+.footer-copyright{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00000038;
+  padding: 30px;
+  color: white;
+}
+.blog_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.social__icons a {
+  padding: 5px;
+}
+.partners__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

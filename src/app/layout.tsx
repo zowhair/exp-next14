@@ -15,13 +15,14 @@ import "/public/styles/aboutus.css"
 import "/public/styles/shah.css"
 import "/public/styles/collection.css"
 import "/public/styles/signup.css"
-
+import "/public/styles/blog.css"
 
 const inter = Inter({ subsets: ["latin"] });
 
 import Card from "./component/card/Card";
 import TopBanner from "./component/TopBanner";
 import ResponsiveAppBar from "./component/NavR";
+import Footer from "./component/Footer";
 
 export const metadata: Metadata = {
   title: "Expedition Asia Trek And Tours",
@@ -39,7 +40,7 @@ export default function RootLayout({
         <TopBanner />
         <ResponsiveAppBar />
         {children}
-        
+        <Footer />
       </body>
     </html>
   );

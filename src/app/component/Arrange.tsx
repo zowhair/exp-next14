@@ -65,7 +65,7 @@ export function Arrange(...props: any){
                         </div>
                         {/* <Greytext/> */}
                         <Text itenerary={details[0].itenerary} />
-                        <Content/>
+                        {/* <Content/> */}
                     </div>
                     <div className="arrange-container-right">
                         <Stay price={details[0].price} slug={slug} textContent="Book now"   />

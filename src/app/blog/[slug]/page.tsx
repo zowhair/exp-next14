@@ -1,4 +1,4 @@
-import { k2, Nangaparbet, Gasherbrum, BroadPeak, Gasherbrum_II, Gasherbrum_IV, Masherbrum } from '@/app/blog-data'
+import { k2, Nangaparbet, Gasherbrum, BroadPeak, Gasherbrum_II, Gasherbrum_IV, Masherbrum, guidToSkardu, k2ExpeditionPreparation, mountainTrekking, nangaparbetTricks, sakrduTourWithUs } from '@/app/blog-data'
 import "./blog-style.css"
 import { Collectioncard } from '@/app/component/card/CollectionCard'
 import { biafoHispar, nangaparbet, k2_concordia } from "@/app/data"
@@ -21,13 +21,26 @@ export default function Blog(props: any) {
         content = Gasherbrum_IV.content
     } else if(slug == 'masherbrum') {
         content = Masherbrum.content
+    } else if(slug == 'guidetoskardu') {
+        content = guidToSkardu.content
+    } else if(slug == 'preparefork2') {
+        content = k2ExpeditionPreparation.content
+    } else if(slug == 'mountaintrekkingroutes') {
+        content = mountainTrekking.content
+    } else if(slug == 'nangaparbettricks') {
+        content = nangaparbetTricks.content
+    } else if(slug == "bookskdwithus") {
+        content = sakrduTourWithUs.content
     }
+    content = {__html : content}
     return ( 
 
         <div className='blog-page'>
             <div className='blog-wrapper'>
-                <h1 className='blog__title'>{slug}</h1>
-                <p className='blog__content'>{content}</p>
+                <h1 className='blog__title'>{props.title}</h1>
+                <div className='blog__content'>
+                    <div dangerouslySetInnerHTML={content} />
+                </div>
             </div>
             <div className='blog-recommended_products'>
                 <h1>Recommended Treks</h1>
@@ -35,6 +48,7 @@ export default function Blog(props: any) {
             <Collectioncard data={biafoHispar[0]} /> 
             <Collectioncard data={nangaparbet[0]} /> 
             <Collectioncard data={k2_concordia[0]} />
+
         </div>
     )
 }

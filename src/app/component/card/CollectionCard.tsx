@@ -23,7 +23,6 @@ export function Collectioncard ( data: any ){
                                             {data.data.description}
                                         </p>
                                         <Bluetext />
-                                        
                                     </div>
                                     {/* <div className="body-bottom"> */}
                                         {/* <Highlight text="go to hell"/> */}

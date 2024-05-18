@@ -210,7 +210,7 @@ export const biafoHispar = [
         description: "Embark on an extraordinary journey to the Biafo Hispar Glacier, a marvel of nature nestled in the heart of the Karakoram Range. Our Biafo Hispar expedition offers adventurers the opportunity to explore one of the longest glaciers outside of the polar regions. Trekking through pristine valleys, crossing thrilling suspension bridges, and navigating crevasse fields, you'll witness breathtaking landscapes and encounter the raw beauty of the Himalayas. Led by experienced guides, our expedition ensures a safe and unforgettable adventure amidst towering peaks and glistening ice. Join us as we embark on an epic odyssey to the remote and captivating Biafo Hispar Glacier.",
         slug:"biafohispar ",
         price: '$3200',
-        banner: "/images/k2-2inner.JPG",
+        banner: "/images/Biafo_Glacier.jpg",
         itenerary: [
             {
                 day :"1",
@@ -427,7 +427,7 @@ export const northSouth = [
         price: "$2000",
         description_s:"Explore the diverse landscapes and vibrant cultures of Pakistan on a comprehensive North and South trip.",
         description: "Embark on a captivating journey to explore the scenic wonders and cultural treasures of Pakistan's diverse regions with our North and South of Pakistan trips. From the majestic peaks of the Himalayas in the North to the sun-drenched beaches of the Arabian Sea in the South, our itineraries offer a comprehensive exploration of the country's contrasting landscapes and rich heritage. Trek through remote mountain valleys, marvel at ancient archaeological sites, and immerse yourself in the vibrant colors and flavors of bustling bazaars. Led by experienced guides, our trips promise an unforgettable adventure filled with discovery, adventure, and authentic cultural encounters. Join us as we uncover the breathtaking beauty and hidden gems of both the North and South of Pakistan.",
-        banner: "/images/northsouth.jpeg",
+        banner: "/images/Royal_mosque.jpg",
         itenerary: [
 
             {

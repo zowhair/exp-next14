@@ -50,7 +50,7 @@ export default async function Home() {
             <div className="card-wrapper container-block">
               <NewCard imgSrc="/images/k2-ggla.JPG" slug="k2-expedition" title={k2_concordia[0].title} desc={k2_concordia[0].description_s} tag="sale" price={k2_concordia[0].price} />
               <NewCard imgSrc="/images/parbet.jpeg" slug="nangaparbet" title={nangaparbet[0].title} desc={nangaparbet[0].description_s} tag="new" price={nangaparbet[0].price} />
-              <NewCard imgSrc="/images/parbet.jpeg" slug="biafohispar" title={biafoHispar[0].title} desc={biafoHispar[0].description_s} tag="sale" price={biafoHispar[0].price} />
+              <NewCard imgSrc="/images/Biafo_Glacier.jpg" slug="biafohispar" title={biafoHispar[0].title} desc={biafoHispar[0].description_s} tag="sale" price={biafoHispar[0].price} />
               
             </div>  
             
@@ -62,7 +62,7 @@ export default async function Home() {
             </div>
             <div className="card-wrapper container-block">
               <NewCard imgSrc="/images/taxila.jpg" slug={indus_valley_itinerary[0].slug} title={indus_valley_itinerary[0].title} desc={indus_valley_itinerary[0].description_s} tag="discount" price={indus_valley_itinerary[0].price} />
-              <NewCard imgSrc="/images/northsouth.jpeg" slug={northSouth[0].slug} title={northSouth[0].title} desc={northSouth[0].description_s} tag="sale" price={northSouth[0].price} />
+              <NewCard imgSrc="/images/Royal_mosque.jpg" slug={northSouth[0].slug} title={northSouth[0].title} desc={northSouth[0].description_s} tag="sale" price={northSouth[0].price} />
               <NewCard imgSrc="/images/shigrilla.jpg" slug={skardu[0].slug} title={skardu[0].title} desc={skardu[0].description_s} tag="discount" price={skardu[0].price} />
             </div>            
           </div>

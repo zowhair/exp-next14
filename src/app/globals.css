@@ -99,9 +99,69 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+.footer-copyright{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00000038;
+  padding: 30px;
+  color: white;
+}
+.blog_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.social__icons a {
+  padding: 5px;
+}
+.partners__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
+
+
+.privacy_container { 
+  max-width: 1400px;
+  padding: 60px;
+  margin:  0 auto;
+}
+
+.privacy_container h2 {
+  padding: 20px 0;
+}
+.privacy_container ul {
+  padding: 10px 0;
+}
+.privacy_container li {
+  padding: 5px 0;
+}
+
+.whatsapp__icon svg {
+  width: 75px;
+  height: 75px;
+  fill: #53b853;
+}
+.whatsapp__icon {
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+}
+
+.whatsapp__icon .icon {
+  position: static;
+}
+
+.privacy-policy{
+  font-size: 10px;
+    text-decoration: none;
+    color: black;
 }

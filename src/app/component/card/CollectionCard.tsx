@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export function Collectioncard ( data: any ){
-    const link: string = '/booknow/'+data.data.slug;
+    const link: string = '/product/'+data.data.slug;
 
     return(
         <Link href={link}>
@@ -14,7 +14,7 @@ export function Collectioncard ( data: any ){
                         <div className="item-wrapper">
                             <div className="product-block">
                                 <div className="product-block-item">
-                                    <Image alt="image" width={500} height={500} src={data.data.banner} />
+                                    <Image alt="image" width={500} height={1000} src={data.data.banner} />
                                 </div>
                                 <div className="product-block-item product-body">
                                     <div className="body-top">
@@ -23,7 +23,6 @@ export function Collectioncard ( data: any ){
                                             {data.data.description}
                                         </p>
                                         <Bluetext />
-                                        
                                     </div>
                                     {/* <div className="body-bottom"> */}
                                         {/* <Highlight text="go to hell"/> */}

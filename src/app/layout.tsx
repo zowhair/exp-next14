@@ -15,13 +15,17 @@ import "/public/styles/aboutus.css"
 import "/public/styles/shah.css"
 import "/public/styles/collection.css"
 import "/public/styles/signup.css"
-
+import "/public/styles/blog.css"
+import "/public/styles/tabs.css"
 
 const inter = Inter({ subsets: ["latin"] });
+import { FaWhatsapp } from "react-icons/fa6";
 
 import Card from "./component/card/Card";
 import TopBanner from "./component/TopBanner";
 import ResponsiveAppBar from "./component/NavR";
+import Footer from "./component/Footer";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Expedition Asia Trek And Tours",
@@ -39,7 +43,14 @@ export default function RootLayout({
         <TopBanner />
         <ResponsiveAppBar />
         {children}
-        
+        <div className="whatsapp__icon">
+          <Link href=" https://wa.me/+923004708813" target="_blank">
+            <div className="icon">
+              <FaWhatsapp />
+            </div>
+          </Link>
+        </div>
+        <Footer />
       </body>
     </html>
   );

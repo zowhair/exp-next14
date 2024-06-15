@@ -60,7 +60,7 @@ function Footer() {
             </Link>
           </div>
         </div>
-<FloatingWhatsApp phoneNumber="+923555781494" accountName="Discovery Treks" chatMessage="Hello there! 🤝 \nHow can we help?" />
+<FloatingWhatsApp phoneNumber="+923004708813" accountName="Expedition Asia" chatMessage="Hello there Welcome To Expedition Asia! 🤝 \nHow can we help?" />
       </Container>
     </Box>
   );

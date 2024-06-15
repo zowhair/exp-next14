@@ -1,7 +1,9 @@
+'use client'
 import TopBanner from './TopBanner';
 import ResponsiveAppBar from './NavR';
 import Hero from './Hero';
 import Footer from './Footer';
+
 
 export default function Layout({children}) {
     return (
@@ -9,6 +11,7 @@ export default function Layout({children}) {
             <TopBanner />
             <ResponsiveAppBar />
             {children}
+           
             <Footer />
 
         </>

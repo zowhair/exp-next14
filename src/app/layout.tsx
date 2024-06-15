@@ -16,6 +16,7 @@ import "/public/styles/shah.css"
 import "/public/styles/collection.css"
 import "/public/styles/signup.css"
 import "/public/styles/blog.css"
+import "/public/styles/tabs.css"
 
 const inter = Inter({ subsets: ["latin"] });
 

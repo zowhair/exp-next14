@@ -1,7 +1,7 @@
 export const k2_concordia = [
     {
         title: "K2 – Concordia - Broad Peak Trek",
-        price: "$3000",
+        price: "$2995",
         banner: "/images/k2-2inner.JPG",
         description_s: "Embark on an epic journey to conquer the legendary K2, the second-highest mountain in the world.",
         description: "Embark on an unforgettable adventure to K2, the second-highest mountain in the world. Our K2 expedition offers thrill-seekers and nature enthusiasts the opportunity to witness the awe-inspiring beauty of this iconic peak, nestled in the heart of the Karakoram Range. Traverse rugged terrain, traverse glaciers, and experience the raw power of nature as you journey through breathtaking landscapes. Led by experienced guides, our K2 tour promises an immersive and safe exploration of one of the world's most legendary mountains. Join us and make memories that will last a lifetime.",
@@ -146,7 +146,7 @@ export const k2_concordia = [
 export const nangaparbet = [
     {
         title: "Nanga Parbat and Fairy Meadows Trek",
-        price: "$800",
+        price: "$799",
         description_s:"Discover the awe-inspiring beauty of Nanga Parbat, the 'Killer Mountain,' on an unforgettable expedition.",
         description: "Experience the majesty of Nanga Parbat, the 'Killer Mountain,' on our exclusive expedition. Towering over the mesmerizing landscape of the Himalayas, Nanga Parbat beckons adventurers with its rugged beauty and formidable presence. Our Nanga Parbat tour offers a unique opportunity to trek through lush valleys, navigate icy glaciers, and witness panoramic views from high-altitude vantage points. Led by seasoned guides, our expedition ensures a safe and unforgettable journey to the base of this iconic peak. Join us as we explore the untamed wilderness surrounding Nanga Parbat and discover the magic of one of the world's most legendary mountains.",
         slug:"nangaparbet",
@@ -305,7 +305,7 @@ export const indus_valley_itinerary = [
     title: "Indus Valley Civilization Culture Tours",
     banner:"/images/taxila.jpg",
     slug:"indusvalley",
-    price: "$2200",
+    price: "$2499",
     description_s:"Unravel the mysteries of one of the world's oldest civilizations on an immersive journey through the Indus Valley.",
     description:"Step back in time and explore the ancient wonders of the Indus Valley Civilization on our immersive tour. Unravel the mysteries of one of the world's oldest civilizations as you journey through archaeological sites, bustling marketplaces, and well-preserved ruins. Marvel at the ingenious urban planning and advanced infrastructure of Harappa and Mohenjo-Daro, and gain insight into the daily life and cultural practices of the ancient inhabitants. Led by expert guides, our tour offers a fascinating glimpse into the rich history and heritage of the Indus Valley Civilization. Join us as we delve into the past and uncover the secrets of this remarkable ancient civilization." ,
     itenerary: [
@@ -424,7 +424,7 @@ export const northSouth = [
     {
         title: "North And South Pakistan",
         slug:"northandsouth",
-        price: "$2000",
+        price: "$2299",
         description_s:"Explore the diverse landscapes and vibrant cultures of Pakistan on a comprehensive North and South trip.",
         description: "Embark on a captivating journey to explore the scenic wonders and cultural treasures of Pakistan's diverse regions with our North and South of Pakistan trips. From the majestic peaks of the Himalayas in the North to the sun-drenched beaches of the Arabian Sea in the South, our itineraries offer a comprehensive exploration of the country's contrasting landscapes and rich heritage. Trek through remote mountain valleys, marvel at ancient archaeological sites, and immerse yourself in the vibrant colors and flavors of bustling bazaars. Led by experienced guides, our trips promise an unforgettable adventure filled with discovery, adventure, and authentic cultural encounters. Join us as we uncover the breathtaking beauty and hidden gems of both the North and South of Pakistan.",
         banner: "/images/Royal_mosque.jpg",
@@ -536,14 +536,13 @@ export const northSouth = [
     }
 ];
 
-
 export const skardu = [ 
     {
         title: "Skardu Treks",
         description_s:"Journey to Skardu and immerse yourself in the rugged beauty of the Karakoram Range and the rich culture of the Balti people.",
         description: "Embark on an unforgettable journey to Skardu, the gateway to some of Pakistan's most breathtaking landscapes. Our Skardu tours offer adventurers the opportunity to explore the rugged beauty of the Karakoram Range, with its towering peaks, azure lakes, and ancient glaciers. Trek through pristine valleys, witness the majestic beauty of K2, the world's second-highest peak, and immerse yourself in the rich culture and traditions of the Balti people. Led by experienced guides, our tours ensure a safe and immersive experience, allowing you to uncover the hidden treasures of Skardu and create memories that will last a lifetime.",
         slug:"skardutours",
-        price: "$700",
+        price: "$699",
         banner:"/images/skardu1.jpg",
         itenerary: [
     

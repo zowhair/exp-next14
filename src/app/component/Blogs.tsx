@@ -13,9 +13,9 @@ export default function StaticBlog() {
             </div>
             <div className="container-block flex-row">
                 {blogs && blogs.map((blog, index) => (
-                    <Link href={'/blog/'+blog.slug} className=" width-fixed " key={index}>
+                    <Link href={'/blog/'+blog.slug} className="" key={index}>
                         <div className="blog__link">
-                            <Image className="blog-card" src="/images/k2-2inner.JPG" width={240} height={200} alt="Image of K2" />
+                            {/* <Image className="blog-card" src="/images/k2-2inner.JPG" width={240} height={200} alt="Image of K2" /> */}
                             <span className="margin-top">{blog.metadata_}</span>
                         </div>
                     </Link>

@@ -1,3 +1,4 @@
+'use client'
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
@@ -5,6 +6,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import { Facebook, Instagram, LinkedIn, WhatsApp, YouTube } from '@mui/icons-material';
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 function Copyright() {
   return (
@@ -39,6 +41,9 @@ function Footer() {
         <div className='footer-copyright'>
           <div className='copyright__note'>
             <Copyright />
+            <Link href="privacypolicy" className='privacy-policy'>
+              Privacy Policy
+            </Link>
           </div>
           <div className='social__icons'>
             <Link href="https://www.facebook.com/expeditionasiapk/">
@@ -55,6 +60,7 @@ function Footer() {
             </Link>
           </div>
         </div>
+<FloatingWhatsApp phoneNumber="+923555781494" accountName="Discovery Treks" chatMessage="Hello there! 🤝 \nHow can we help?" />
       </Container>
     </Box>
   );

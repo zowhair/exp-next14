@@ -1,0 +1,31 @@
+.tabs__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.tabs__container .tabs_wrapper {
+    width: 710px;
+}
+.tabs__container .tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    background-color: #75747478;
+}
+.tabs__container .tab {
+    padding: 20px;
+    background: #dadada;
+    cursor: pointer;
+    border-right: 2px solid #807a7a4d;
+    border-left: 2px solid #807a7a4d;
+}
+.tabs__container .tab.active {
+    background: #aaa;
+    color:white;
+}
+.tabs__container .activeTab {
+    padding: 20px 0;
+}

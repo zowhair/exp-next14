@@ -14,7 +14,7 @@ export default async function AboutPage() {
         "telephone": "+923004708813",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Near Parade Ground Metro Station, Blue area",
+          "streetAddress": "27 E 3rd floor Office #5 Ali Plaza Fazal Haq Road Blue area",
           "addressLocality": "Islamabad Pakistan",
           "addressCountry": "PK",
           "addressRegion": "PK",

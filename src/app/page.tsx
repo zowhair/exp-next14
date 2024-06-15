@@ -7,6 +7,8 @@ import Carousel from "./component/Carousel";
 import type { Metadata } from "next";
 import { k2_concordia, nangaparbet, biafoHispar, northSouth, indus_valley_itinerary, skardu } from "./data";
 import PartnersCarousel from "./component/PartnersCarousel";
+import ScrollableTabsButtonAuto from "./component/Tabs";
+
 
 export const metadata: Metadata = {
   title: "Expedition Asia Trek And Tours",
@@ -69,6 +71,8 @@ export default async function Home() {
         </div>
         <PackageCards />
         <PartnersCarousel />
+        <ScrollableTabsButtonAuto />
+
 
         {/* <Packages /> */}
         

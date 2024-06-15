@@ -135,7 +135,11 @@ export default function AboutUs() {
                             {/* <Bluetext tags={tags_} /> */}
                             <p className="margin-bottom">
                                 <b>Address</b>
-                                <br/> Near Parade Ground Metro Station, Blue area, <br /> Islamabad Pakistan
+                                <em>
+                                    <b>
+                                        <br/>27 E 3rd floor Office #5 Ali Plaza Fazal Haq Road Blue area, <br /> Islamabad Pakistan
+                                    </b>
+                                </em>
 
                             </p>
                             <p className="margin-bottom">

@@ -17,7 +17,7 @@
 }
 .flex-row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 50px auto;
     flex-wrap: wrap;
     align-items: center;

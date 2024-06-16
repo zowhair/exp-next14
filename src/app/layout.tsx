@@ -24,6 +24,7 @@ import Card from "./component/card/Card";
 import TopBanner from "./component/TopBanner";
 import ResponsiveAppBar from "./component/NavR";
 import Footer from "./component/Footer";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: "Expedition Asia Trek And Tours",
@@ -42,6 +43,7 @@ export default function RootLayout({
         <ResponsiveAppBar />
         {children}
         <Footer />
+        <GoogleAnalytics gaId="G-SZVPN6V0E8" />
       </body>
     </html>
   );

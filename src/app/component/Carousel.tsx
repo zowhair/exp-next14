@@ -15,14 +15,11 @@ export default function Carousel() {
 
 
     const carouselElements = [
-        "/images/KN3A8259.jpg",
-        "/images/heli/1.JPG",
-        "/images/nangaparbet-iin.jpg",
-        "/images/heli/3.JPG",
-        "/images/heli/8.JPG",
-        "/images/taxila.jpg",
-        "/images/Rakaposhi.jpg",
-        "/images/k2/DSC_3563.JPG"
+        "/images/carousel/1.webp",
+        "/images/carousel/4.webp",
+        "/images/carousel/5.webp",
+        "/images/carousel/6.webp",
+        "/images/carousel/parbet-in.webp"
     ]
     return (
         <>

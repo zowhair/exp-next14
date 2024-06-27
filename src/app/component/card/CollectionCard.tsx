@@ -8,7 +8,7 @@ export function Collectioncard ( data: any ){
     const link: string = '/product/'+data.data.slug;
 
     return(
-        <Link href={link}>
+        <Link href={link} prefetch={true}>
             <div className="collection">
                     <div className="container-block">
                         <div className="item-wrapper">

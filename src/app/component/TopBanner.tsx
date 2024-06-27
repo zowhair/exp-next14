@@ -9,7 +9,7 @@ export default function TopBanner() {
     return (
         <Box  >
             <div className={styles.whitetop}>
-                <Link href="/" style={{textDecoration:'none'}}>
+                <Link href="/" style={{textDecoration:'none'}} prefetch={true}>
                     <Box className={styles.topleft}>
                         <Image alt="image logo" src="/images/logos/logo-top.png" width={100} height={100} />
                         <span className={styles.brandname}>Expedition Asia Treks & Tours Pakistan</span>

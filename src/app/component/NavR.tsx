@@ -35,6 +35,10 @@ const pages = [
   {
     title: "About Us",
     slug: '/aboutus',
+  },
+  {
+    title: "Contact Us",
+    slug: '/contactus',
   }
 
 ];
@@ -98,7 +102,7 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page.title} onClick={handleCloseNavMenu}>
-                  <Link href={page.slug} key={page.slug}> 
+                  <Link href={page.slug} key={page.slug} prefetch={true}> 
                     <Typography>
                       {page.title}
                     </Typography>
@@ -126,7 +130,7 @@ function ResponsiveAppBar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
             {pages.map((page) => (
-              <Link href={page.slug} key={page.slug}>
+              <Link href={page.slug} key={page.slug} prefetch={true}>
                 <Button
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, mx: 5, color: 'white', display: 'block' }}

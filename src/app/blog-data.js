@@ -388,3 +388,135 @@ export const sakrduTourWithUs = {
     </footer>
 </article>`
 }
+
+export const wondersOfGB = {
+    title: "Exploring the Wonders of Gilgit-Baltistan",
+    slug: "explorewondersofgb",
+    category: "Tour",
+    metadata_: "Discover the beauty and adventure of Gilgit-Baltistan with our exclusive tour packages. From towering peaks to serene valleys, explore the rich culture and stunning landscapes of this northern paradise with Expedition Asia Trek and Tours.",
+    content:`<article>
+        <header>
+            <h1>Exploring the Wonders of Gilgit-Baltistan</h1>
+        </header>
+        <section>
+            <p>Gilgit-Baltistan, a gem in the northern regions of Pakistan, is a paradise for nature lovers and adventure seekers. From towering mountains to serene valleys, this region offers a unique blend of natural beauty and cultural richness.</p>
+        </section>
+        <section>
+            <h2>Why Visit Gilgit-Baltistan?</h2>
+            <p>With its breathtaking landscapes, Gilgit-Baltistan is home to some of the highest peaks in the world, including K2 and Nanga Parbat. The region is also known for its rich history and diverse cultures, making it a perfect destination for travelers looking to explore both nature and heritage.</p>
+        </section>
+        <section>
+            <h2>Our Tour Packages</h2>
+            <p>At Expedition Asia Trek and Tours, we offer a variety of tour packages tailored to meet the needs of every traveler. Whether you're looking for a challenging trek or a relaxing sightseeing tour, we have something for everyone.</p>
+            <ul>
+                <li><strong>Guided Tours:</strong> Explore the stunning landscapes with our expert guides who will ensure a safe and enriching experience.</li>
+                <li><strong>Custom Packages:</strong> Create your own itinerary and travel at your own pace with our customizable tour packages.</li>
+            </ul>
+        </section>
+        <footer>
+            <p>Book your adventure today and discover the magic of Gilgit-Baltistan with us!</p>
+        </footer>
+    </article>`
+}
+export const ExpeditionMightyK2 = {
+    title: "Conquering the Mighty K2 - The Ultimate Expedition",
+    slug: "expeditionk2",
+    category: "Tour",
+    metadata_: "Join Expedition Asia Trek and Tours for the ultimate K2 expedition. Conquer the world's second-highest peak with our expert guides, comprehensive logistics, and pre-expedition training. Experience the thrill and achievement of reaching the summit of K2.",
+    content:`<header>
+            <h1>Conquering the Mighty K2 - The Ultimate Expedition</h1>
+        </header>
+        <section>
+            <p>K2, the world's second-highest peak, stands tall at 8,611 meters and is a dream destination for mountaineers and adventure enthusiasts. Known for its challenging terrain and breathtaking views, K2 offers an experience like no other.</p>
+        </section>
+        <section>
+            <h2>The Challenge of K2</h2>
+            <p>Climbing K2 is not for the faint-hearted. With its steep slopes and unpredictable weather, it is considered one of the most difficult mountains to climb. However, the sense of achievement upon reaching the summit is unparalleled.</p>
+        </section>
+        <section>
+            <h2>Join Our Expedition</h2>
+            <p>At Expedition Asia Trek and Tours, we provide a comprehensive K2 expedition package that includes:</p>
+            <ul>
+                <li><strong>Experienced Guides:</strong> Our team of expert climbers will guide you every step of the way, ensuring your safety and success.</li>
+                <li><strong>Complete Logistics:</strong> From base camp setup to food and equipment, we take care of all the logistics, allowing you to focus on the climb.</li>
+                <li><strong>Training and Preparation:</strong> We offer pre-expedition training and acclimatization sessions to help you prepare for the challenges ahead.</li>
+            </ul>
+        </section>
+        <footer>
+            <p>Embark on the adventure of a lifetime and conquer K2 with us. Contact us today to learn more about our expedition packages.</p>
+        </footer>
+    </article>`
+}
+export const karakoramTrekking = {
+    title: "Trekking the Karakoram Range - A Journey of a Lifetime",
+    slug: "trekkingkarakoram",
+    category: "Tour",
+    metadata_: "Experience the thrill of trekking in the Karakoram Range with Expedition Asia Trek and Tours. Whether you're a beginner or an experienced trekker, our guided treks offer breathtaking views, diverse wildlife, and an unforgettable adventure in one of the world's most spectacular mountain ranges.",
+    content:`<article>
+        <header>
+            <h1>Trekking the Karakoram Range - A Journey of a Lifetime</h1>
+        </header>
+        <section>
+            <p>The Karakoram Range, with its rugged beauty and towering peaks, is a trekker's paradise. Home to some of the highest mountains in the world, including K2 and Nanga Parbat, this region offers unparalleled trekking experiences.</p>
+        </section>
+        <section>
+            <h2>Why Trek the Karakoram Range?</h2>
+            <p>Trekking in the Karakoram Range is an adventure like no other. The region's dramatic landscapes, diverse wildlife, and remote villages provide a unique and enriching experience. Whether you're an experienced trekker or a beginner, the Karakoram Range has something for everyone.</p>
+        </section>
+        <section>
+            <h2>Our Trekking Packages</h2>
+            <p>At Expedition Asia Trek and Tours, we offer a variety of trekking packages to suit all levels of experience:</p>
+            <ul>
+                <li><strong>Beginners' Treks:</strong> Ideal for those new to trekking, our beginners' treks offer a gentle introduction to the beauty of the Karakoram.</li>
+                <li><strong>Intermediate Treks:</strong> For those with some trekking experience, our intermediate treks provide a bit more challenge and adventure.</li>
+                <li><strong>Advanced Treks:</strong> Our advanced treks are designed for experienced trekkers looking for a true challenge in the heart of the Karakoram.</li>
+            </ul>
+        </section>
+        <footer>
+            <p>Join us for an unforgettable trekking experience in the Karakoram Range. Book your trek today and embark on a journey of a lifetime.</p>
+        </footer>
+    </article>`
+}
+
+export const adventureGB = {
+    title: " Top 5 Must-Do Adventures in Gilgit-Baltistan for 2024",
+    slug: "adventuregb",
+    category: "Tour",
+    metadata_: "Discover the top 5 must-do adventures in Gilgit-Baltistan for 2024 with Expedition Asia Trek and Tours. From conquering K2 to trekking the Karakoram Range and exploring the Hunza Valley, embark on an unforgettable journey in Pakistan's premier destination for high-altitude adventures.",
+    content:`<article>
+        <header>
+            <h1>Top 5 Must-Do Adventures in Gilgit-Baltistan for 2024</h1>
+        </header>
+        <section>
+            <p>As 2024 approaches, adventure seekers from around the globe are setting their sights on Gilgit-Baltistan, Pakistan's premier destination for high-altitude adventures. Known for its towering peaks and rugged beauty, Gilgit-Baltistan offers a wealth of experiences that are sure to make your next trip unforgettable. Here are the top 5 must-do adventures in Gilgit-Baltistan for 2024.</p>
+        </section>
+        <section>
+            <h2>1. K2 Expedition 2024</h2>
+            <p>Embark on the ultimate challenge with our K2 expedition. Standing at 8,611 meters, K2 is the world's second-highest peak and offers an unparalleled climbing experience. Join our expert guides for a journey that combines intense physical challenge with breathtaking scenery.</p>
+            <p><strong>Keywords:</strong> K2 expedition 2024, climbing K2, K2 adventure tours</p>
+        </section>
+        <section>
+            <h2>2. Trekking Nanga Parbat</h2>
+            <p>Known as the "Killer Mountain," Nanga Parbat is a trekker's dream. Our guided treks offer a safe and exhilarating way to explore this majestic peak. Experience the thrill of trekking one of the world's most famous mountains.</p>
+            <p><strong>Keywords:</strong> Nanga Parbat trekking, Nanga Parbat tours, trekking in Pakistan</p>
+        </section>
+        <section>
+            <h2>3. Trekking the Karakoram Range</h2>
+            <p>The Karakoram Range is home to some of the highest and most challenging peaks in the world. Our trekking packages cater to all levels, from beginners to advanced trekkers, ensuring an adventure for everyone.</p>
+            <p><strong>Keywords:</strong> Karakoram trekking, Karakoram Range treks, adventure trekking Pakistan</p>
+        </section>
+        <section>
+            <h2>4. Exploring Hunza Valley</h2>
+            <p>The Hunza Valley, with its stunning landscapes and rich cultural heritage, is a must-visit destination. Our tours provide an in-depth exploration of this beautiful valley, offering insights into local traditions and breathtaking views.</p>
+            <p><strong>Keywords:</strong> Hunza Valley tours, Hunza Valley travel, cultural tours Gilgit-Baltistan</p>
+        </section>
+        <section>
+            <h2>5. Skardu Adventures</h2>
+            <p>Skardu is the gateway to some of Pakistan's most famous mountains and treks. Whether you're looking to climb, trek, or simply enjoy the stunning scenery, Skardu has something to offer. Our adventure packages ensure you get the most out of your visit.</p>
+            <p><strong>Keywords:</strong> Skardu adventures, Skardu trekking, Skardu travel packages</p>
+        </section>
+        <footer>
+            <p>Ready to embark on the adventure of a lifetime? Contact Expedition Asia Trek and Tours to book your 2024 adventure in Gilgit-Baltistan today. Experience the thrill, beauty, and culture of one of the world's most spectacular regions.</p>
+        </footer>
+    </article>`
+}

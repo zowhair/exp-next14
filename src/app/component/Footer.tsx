@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+import Link from 'next/link';
 import { Facebook, Instagram, LinkedIn, WhatsApp, YouTube } from '@mui/icons-material';
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
@@ -12,7 +12,7 @@ function Copyright() {
   return (
     <Typography  color="text.secondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https:expeditionasiaa.com">
+      <Link color="inherit" href="https//:expeditionasiaa.com" prefetch={true}>
         expeditionasiaa.com
       </Link>{' '}
       {new Date().getFullYear()}
@@ -41,21 +41,21 @@ function Footer() {
         <div className='footer-copyright'>
           <div className='copyright__note'>
             <Copyright />
-            <Link href="privacypolicy" className='privacy-policy'>
+            <Link href="/privacypolicy" className='privacy-policy' prefetch={true}>
               Privacy Policy
             </Link>
           </div>
           <div className='social__icons'>
-            <Link href="https://www.facebook.com/expeditionasiapk/">
+            <Link href="https://www.facebook.com/expeditionasiapk/" prefetch={true}>
               <Facebook />
             </Link>
-            <Link href="https://wa.me/+923004708813">
+            <Link href="https://wa.me/+923004708813" prefetch={true}>
               <WhatsApp />
             </Link>
-            <Link href="https://www.instagram.com/expeditionasiatrek">
+            <Link href="https://www.instagram.com/expeditionasiatrek" prefetch={true}>
               <Instagram />
             </Link>
-            <Link href="https://www.linkedin.com/company/expeditionasia/">
+            <Link href="https://www.linkedin.com/company/expeditionasia/" prefetch={true}>
               <LinkedIn />
             </Link>
           </div>

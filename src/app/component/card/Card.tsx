@@ -39,7 +39,7 @@ const Card = () => {
                                 <div>
                                     <Link href={{
                                         pathname:"/product/newThing"
-                                        }} >
+                                        }} prefetch={true}>
                                         <button>Book now</button>
                                     </Link>
                                 </div>

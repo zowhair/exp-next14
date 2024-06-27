@@ -8,6 +8,7 @@ import type { Metadata } from "next";
 import { k2_concordia, nangaparbet, biafoHispar, northSouth, indus_valley_itinerary, skardu } from "./data";
 import PartnersCarousel from "./component/PartnersCarousel";
 import ScrollableTabsButtonAuto from "./component/Tabs";
+import { PopularBlogs } from "./component/Blogs";
 
 
 export const metadata: Metadata = {
@@ -79,6 +80,8 @@ export default async function Home() {
         {/* <Arrange /> */}
         {/* <Form /> */}
         {/* <Stay /> */}
+
+        <PopularBlogs />
 
         <script
           type="application/ld+json"

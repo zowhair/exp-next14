@@ -38,3 +38,7 @@ yarn-error.log*
 next-env.d.ts
 src/app/data.js
 src/app/data-blog.js
+
+
+/src/app/data.js
+/src/app/data-blog.js

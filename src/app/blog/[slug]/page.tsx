@@ -1,4 +1,4 @@
-import { k2, Nangaparbet, Gasherbrum, BroadPeak, Gasherbrum_II, Gasherbrum_IV, Masherbrum, guidToSkardu, k2ExpeditionPreparation, mountainTrekking, nangaparbetTricks, sakrduTourWithUs } from '@/app/blog-data'
+import { k2, Nangaparbet, Gasherbrum, BroadPeak, Gasherbrum_II, Gasherbrum_IV, Masherbrum, guidToSkardu, k2ExpeditionPreparation, mountainTrekking, nangaparbetTricks, sakrduTourWithUs, wondersOfGB, ExpeditionMightyK2, karakoramTrekking, adventureGB,  } from '@/app/blog-data'
 import "./blog-style.css"
 import { Collectioncard } from '@/app/component/card/CollectionCard'
 import { biafoHispar, nangaparbet, k2_concordia } from "@/app/data"
@@ -31,6 +31,14 @@ export default function Blog(props: any) {
         content = nangaparbetTricks.content
     } else if(slug == "bookskdwithus") {
         content = sakrduTourWithUs.content
+    } else if(slug == "explorewondersofgb") {
+        content = wondersOfGB.content
+    } else if(slug == "expeditionk2") {
+        content = ExpeditionMightyK2.content
+    } else if(slug == "trekkingkarakoram") {
+        content = karakoramTrekking.content
+    } else if(slug == "adventuregb") {
+        content = adventureGB.content
     }
     content = {__html : content}
     return ( 
